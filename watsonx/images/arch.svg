@@ -1,0 +1,60 @@
+<svg width="816" height="408" viewBox="0 0 816 408" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="816" height="408" fill="white"/>
+<rect x="48.5" y="48.5" width="719" height="311" fill="white"/>
+<rect x="48.5" y="48.5" width="719" height="311" stroke="black"/>
+<rect x="49" y="49" width="718" height="310" fill="white"/>
+<rect x="49" y="49" width="718" height="310" fill="#F4F4F4"/>
+<g clip-path="url(#clip0_3_2431)">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="14" font-weight="bold" letter-spacing="0.16px"><tspan x="64" y="76.8535">Cloud platform</tspan></text>
+</g>
+<rect x="80.5" y="97.5" width="663" height="238" fill="white"/>
+<rect x="80.5" y="97.5" width="663" height="238" stroke="black"/>
+<rect x="81" y="98" width="662" height="237" fill="white"/>
+<g clip-path="url(#clip1_3_2431)">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="14" font-weight="bold" letter-spacing="0.16px"><tspan x="96" y="125.854">IBM watsonx as a Service architecture</tspan></text>
+</g>
+<rect x="104.5" y="153.5" width="295" height="87" fill="white"/>
+<rect x="104.5" y="153.5" width="295" height="87" stroke="#0F62FE"/>
+<rect x="105" y="154" width="294" height="86" fill="white"/>
+<rect x="105" y="154" width="294" height="86" fill="#EDF5FF"/>
+<g clip-path="url(#clip2_3_2431)">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="14" font-weight="bold" letter-spacing="0.16px"><tspan x="120" y="181.854">IBM watsonx.ai</tspan></text>
+</g>
+<rect x="104.5" y="265.5" width="615" height="47" fill="white"/>
+<rect x="104.5" y="265.5" width="615" height="47" stroke="#A56EFF"/>
+<rect x="105" y="266" width="614" height="46" fill="white"/>
+<rect x="105" y="266" width="614" height="46" fill="#F6F2FF"/>
+<g clip-path="url(#clip3_3_2431)">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="14" font-weight="bold" letter-spacing="0.16px"><tspan x="120" y="293.854">Common core functionality</tspan></text>
+</g>
+<rect x="424.5" y="153.5" width="295" height="87" fill="white"/>
+<rect x="424.5" y="153.5" width="295" height="87" stroke="#EE5396"/>
+<rect x="425" y="154" width="294" height="86" fill="white"/>
+<rect x="425" y="154" width="294" height="86" fill="#FFF0F7"/>
+<g clip-path="url(#clip4_3_2431)">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="14" font-weight="bold" letter-spacing="0.16px"><tspan x="440" y="181.854">IBM watsonx.governance</tspan></text>
+</g>
+<rect width="232" height="18" transform="translate(120 207)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<rect x="120" y="212" width="8" height="8" fill="#0F62FE"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="14" letter-spacing="0.16px"><tspan x="136" y="220.854">Build AI solutions</tspan></text>
+<rect width="214" height="18" transform="translate(441 207)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M449 220H441L445 212L449 220Z" fill="#EE5396"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="14" letter-spacing="0.16px"><tspan x="457" y="220.854">Evaluate and govern AI</tspan></text>
+<defs>
+<clipPath id="clip0_3_2431">
+<rect width="720" height="48" fill="white" transform="translate(48 48)"/>
+</clipPath>
+<clipPath id="clip1_3_2431">
+<rect width="664" height="48" fill="white" transform="translate(80 97)"/>
+</clipPath>
+<clipPath id="clip2_3_2431">
+<rect width="296" height="48" fill="white" transform="translate(104 153)"/>
+</clipPath>
+<clipPath id="clip3_3_2431">
+<rect width="616" height="48" fill="white" transform="translate(104 265)"/>
+</clipPath>
+<clipPath id="clip4_3_2431">
+<rect width="296" height="48" fill="white" transform="translate(424 153)"/>
+</clipPath>
+</defs>
+</svg>
