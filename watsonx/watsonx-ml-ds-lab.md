@@ -2,11 +2,23 @@
 
 # Overview
 
-## Learning objectives
+# Learning objectives
 
-In this lab, you are introduced to the machine learning and data science capabilities of IBM watsonx. The goal of this lab is to familiarize you with the capabilities of watsonx through practical examples and deepen your understanding of the possiblities that the platform provides.
+This lage introduces you to the machine learning and data science capabilities of IBM watsonx. The goal of this lab is to familiarize you with the capabilities of watsonx through practical examples and deepen your understanding of the possiblities that the platform provides.
 
-To complete this lab, follow the tasks in the given sequence. Tasks marked as **Optional** provide less guidance and are designed to encourage broader exploration of what you can achieve with watsonx.
+In this lab, you will complete the following tasks:
+
+- Sign up for an IBM watsonx trial account.
+- Set up a project to perform machine learning and data science tasks.
+- Run a Python notebook to process data.
+- Optional: Build a Data Refinery flow to prepare data.
+- Build a binary classification model with AutoAI.
+- Save, promote, deploy, and test a machine learning model.
+- Build a multivariate time series forecasting model with Python code in a notebook.
+- Optional: Build a machine learning model with SPSS Modeler.
+
+
+Tasks marked as **Optional** provide less guidance and are designed to encourage broader exploration of what you can achieve with watsonx.
 
 ## What is machine learning?
 
@@ -435,13 +447,16 @@ Try these tutorials to learn how to build a model by using SPSS Modeler.
 [Back to the top](#top)
 
 # Summary
+In this lab, you learned how to complete the following tasks:
 
-You have now finished the _Machine Learning and Data Science Capabilities of watsonx_ lab. In this lab you:
-
-- Know how to set up watsonx.ai and create a project
-- Explored the possibilities with watsonx through 3 practical examples
-- Learned to navigate the watsonx platform
-- Familiarized yourself with the relevant tools to start working on your use case!
+- Sign up for an IBM watsonx trial account.
+- Set up a project to perform machine learning and data science tasks.
+- Run a Python notebook to process data.
+- Optional: Build a Data Refinery flow to prepare data.
+- Build a binary classification model with AutoAI.
+- Save, promote, deploy, and test a machine learning model.
+- Build a multivariate time series forecasting model with Python code in a notebook.
+- Optional: Build a machine learning model with SPSS Modeler.
 
 # Appendix
 
