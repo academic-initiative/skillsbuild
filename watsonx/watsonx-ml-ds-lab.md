@@ -39,7 +39,7 @@ The most typical forecasting steps include:
 - [Task 2: Work in a project](#task02)
 - [Task 3: Process and analyze data](#task03)
 - [Task 4: Build a binary classification model](#task04)
-- [Task 5: Create a multivariate time series forecasting model with Granite](#task05)
+- [Task 5: Build a multivariate time series forecasting model with Granite](#task05)
 - [Task 6: Optional: Build a model with SPSS Modeler](#task06)
 
 <a name="task01"></a>
@@ -344,7 +344,7 @@ You can use a short script to simulate a real-world scenario where an industrial
 
 <a name="task05"></a>
 
-# Task 5: Create a multivariate time series forecasting model with Granite
+# Task 5: Build a multivariate time series forecasting model with Granite
 
 IBM’s open-source Granite Time Series models are pre-trained for multivariate time-series forecasting. The idea of utilizing tiny pre-trained models with 1-3 million parameters for time-series forecasting were first introduced in this series. In this lab, you build a scikit-learn model using a sample notebook.
 
