@@ -17,31 +17,7 @@ In this lab, you will complete the following tasks:
 - Build a multivariate time series forecasting model with Python code in a notebook.
 - Optional: Build a machine learning model with SPSS Modeler.
 
-
 Tasks marked as **Optional** provide less guidance and are designed to encourage broader exploration of what you can achieve with watsonx.
-
-## What is machine learning?
-
-Machine learning (ML) is a branch of artificial intelligence (AI) focused on enabling computers and machines to imitate the way that humans learn, to perform tasks autonomously, and to improve their performance and accuracy through experience and exposure to more data.
-
-## What is data science?
-
-Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI) and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data. These insights can be used to guide decision making and strategic planning.
-
-## What is forecasting?
-
-Forecasting is a method of predicting a future event or condition by analyzing patterns and uncovering trends in previous and current data. It employs mathematical approaches and applies statistical models to generate predictions.
-
-Machine learning (ML) and AI are used to more accurately build forecasts as they reduce errors by up to 50%.
-
-The most typical forecasting steps include:
-
-- Define what to predict
-- Gather data
-- Select a forecasting method
-- Generate a forecast
-- Verify the forecast's accuracy
-- Visualize the forecast
 
 <a name="top"></a>
 
@@ -91,7 +67,10 @@ Follow these steps to create an access token to use in the notebook:
 
 1. Click the **Access control** tab.
 2. Click **New access token**.
-3. For the *Name*, type: ```notebook access token```.
+3. For the *Name*, type:
+   ```
+   notebook access token
+   ```
 4. For the *Access role*, select **Editor**.
 5. Click **Create**.
 
@@ -113,20 +92,6 @@ For more information, see the following documentation topics:
 
 - [Administering a project](https://ibm.biz/BdGKhW)
 - [Asset types](https://ibm.biz/BdGKVR)
-
-# Exploring the machine learning and data science capabilities of watsonx
-
-Watsonx offers more than just generative AI capabilities. In this lab, you will learn how to **prepare** and **analyze data**, build **machine learning models**, and **deploy** your solutions – all while using the watsonx platform. The relevant sections of the documentation are highlighted in the picture below.<br/>![New asset tearsheet](images/ml-ds-new-asset.png)
-
-Watsonx provides a set of three tools to build ML models and performing essential data science tasks:
-
-- Notebooks for programming in Python or R
-- AutoAI
-- SPSS Modeler
-
-To explore more about these tools and the other functionalities relevant to this lab, you can go to the [watsonx documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/welcome-main.html?context=wx&audience=wdp) and read about what you can achieve by using them. However, this lab will provide a practical example for each of these tools. Additionally, many links throughout the lab will direct you to specific sections of the documentation for further details
-
-**Note**: A **common mistake** when going through these tutorials is to skip the provided videos. These short videos give a clearer understanding of the entire process and help you navigate much more efficiently. For instance, the visual guide to generate an API key and identify the location (e.g. location = “us-south” for Dallas) is much more intuitive when first watching the video before reading through the tutorial.
 
 [Back to the top](#top)
 
