@@ -79,7 +79,7 @@ Follow these steps to create an access token to use in the notebook:
 Next, you can import data by connecting to an existing data source, or by uploading data directly to the project. You can find all of your project data on the **Assets** tab. Follow these steps to upload data to your project:
 
 1. Click the **Assets** tab.
-2. Download the [iot_sensor_dataset](https://github.com/academic-initiative/skillsbuild/blob/main/watsonx/files/iot_sensor_dataset.csv).
+2. Download the <a href="https://github.com/academic-initiative/skillsbuild/blob/main/watsonx/files/iot_sensor_dataset.csv" target="_blank">iot_sensor_dataset.csv</a>.
 3. Click **Import assets > Local file > Data asset**.
 4. Click **Browse**, navigate to the local **iot_sensor_data.csv** file, and click **Open**.
 5. Click **Done** to see the data set on the _Assets_ tab.
@@ -90,8 +90,8 @@ Next, you can import data by connecting to an existing data source, or by upload
 
 For more information, see the following documentation topics:
 
-- [Administering a project](https://ibm.biz/BdGKhW)
-- [Asset types](https://ibm.biz/BdGKVR)
+- <a href="https://ibm.biz/BdGKhW" target="_blank">Administering a project</a>
+- <a href="https://ibm.biz/BdGKVR" target="_blank">Asset types</a>
 
 [Back to the top](#top)
 
@@ -160,7 +160,7 @@ You can build a data refinery flow by using a graphical user interface. Follow t
 2. Scroll to the **fail** column.
 3. Hover over **0** and **1** bars to see the frequency of each. The data set is considered to have a mild imbalance because there are fewer rows where the sensor failed (fail=0) than rows where the sensor didn’t fail (fail=1).
 
-Refer to the [Refining data](https://ibm.biz/BdGGxg) documentation topic to learn how to prepare the data set in the following ways using Data Refinery:
+Refer to the <a href="https://ibm.biz/BdGGxg" target="_blank">Refining data</a> documentation topic to learn how to prepare the data set in the following ways using Data Refinery:
 
 - Separate the categorical and numerical variables as well as the target.
 - Encode the categorical variables by converting them to category codes.
@@ -217,7 +217,7 @@ As expected, AutoAI chose **Binary Classification** for the _Prediction Type_. H
    - Algorithms to use
    - All settings on the _Data source_ panel > _General_ tab
 
-   A detailed documentation for the experiment settings is provided here: [Configure experiment settings](https://ibm.biz/BdGaXi)
+   Refer to <a href="https://ibm.biz/BdGaXi" target="_blank">Configure experiment settings</a> for detailed documentation on the experiment settings. 
 
 1. Click **Run experiment**, and wait while the _Progress map_ and _Pipeline leaderboard_ are filled in.
 
@@ -225,7 +225,7 @@ As expected, AutoAI chose **Binary Classification** for the _Prediction Type_. H
 
 AutoAI will automatically build different pipelines and compare them to each other based on the metrics specified in the experiment settings. In this example, the pipelines will be optimized and ranked for accuracy & run time.
 
-You will see the top performing pipeline in the leaderboard. The table will show you the algorithm used, the accuracy, the enhancements ([hyperparameter optimization](https://ibm.biz/BdGaXG) and [feature engineering](https://ibm.biz/BdGaXK)) as well as the build time for each pipeline candidate.
+You will see the top performing pipeline in the leaderboard. The table will show you the algorithm used, the accuracy, the enhancements <a href="https://ibm.biz/BdGaXG" target="_blank">hyperparameter optimization</a> and <a href="https://ibm.biz/BdGaXK" target="_blank">feature engineering</a> as well as the build time for each pipeline candidate.
 
 <br/>![Progress map and leaderboard in AutoAI](images/ml-ds-autoai01.png)
 
@@ -302,7 +302,7 @@ Now that the model is promoted to a deployment space, follow these steps to crea
 
 You can use a short script to simulate a real-world scenario where an industrial sensor is sending data to the model and if the model classifies the reading as a failure, the machine will be stopped.
 
-1. Create a notebook containing the code in the appendix and the _iot_sensor_data_test.csv_ dataset. Refer to the [Creating and managing notebooks](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/creating-notebooks.html?context=wx) for details on how to create a blank notebook.
+1. Create a notebook containing the code in the appendix and the _iot_sensor_data_test.csv_ dataset. Refer to the  <a href="https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/creating-notebooks.html?context=wx" target="_blank">Creating and managing notebooks</a> documentation topic for details on how to create a blank notebook.
 2. Copy the code from the _Appendix_ into the notebook.
 3. Verify that you are using the _public endpoint_ to reach the deployment.
 4. Obtain an API Key:
