@@ -562,9 +562,9 @@ During the testing phase, Bob validates:
 
 ## Final completion
 
-Review the final completion:
+Prompt Bob to provide a final summary of the implementation, and review the final completion.
 
-   ![All phases complete](images/final-summary.png)
+![All phases complete](images/final-summary.png)
 
 [Back to the top](#top)
 
@@ -584,7 +584,7 @@ Now that the application is built, follow these steps to test the application:
 
 1. Select several player match ups and predict the outcomes.
 
-   ![test web app](images/test-web-app.png)
+   ![Test web app](images/test-web-app.png)
    
 1. If you encounter any errors in the app, ask Bob to help you troubleshoot the error. For example:
 
