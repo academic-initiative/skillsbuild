@@ -589,7 +589,9 @@ Now that the application is built, follow these steps to test the application:
 1. If you encounter any errors in the app, ask Bob to help you troubleshoot the error. For example:
 
    ```
-   I’m testing the app and after selecting players, I see "Error making prediction: No module named 'feature_engineering’” Can you troubleshoot the cause of the error?
+   I’m testing the app and after selecting players, I see:
+   "Error making prediction: No module named 'feature_engineering’” 
+   Can you troubleshoot the cause of the error?
    ```
 
 1. Optional: Ask Bob to enhance the application with additional features.
