@@ -195,7 +195,7 @@ Follow these steps to set up the project in IBM Bob.
    Note: On macOS, if tools like Homebrew are installed but not found in the default shell, try using interactive shell mode (e.g., `zsh -i -c 'command'`) to load the full environment profile.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob.
+1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts to install python and pytest.
 
 [Back to the top](#top)
 
@@ -273,7 +273,7 @@ Follow these steps to set up the project in IBM Bob.
    Create a ToDo list of tasks for my review. 
    ```
 
-1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob.
+1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob. Bob might aska you to confirm key design decisions. Review and select one of the proposed options.
 
 [Back to the top](#top)
 
@@ -287,7 +287,7 @@ Follow these steps to review and approve the implementation plan:
 
 1. Review the proposed implementation plan. Do not start implementation at this point. Note that your plan might look different than the plan shown in the following image:
 
-   ![review plan](images/review_plan.png)
+   ![review plan](images/review-plan.png)
 
 1. In Bob's chat panel, copy and paste the following prompt ask Bob to create the initial implementation plan document:
 
@@ -301,7 +301,7 @@ Follow these steps to review and approve the implementation plan:
     - Saved`IMPLEMENTATION_PLAN.md`
     - Updated Todo List:
 
-      ![review todo list](images/plan-todo-list.png)
+      ![review todo list](images/plan-todo-list-updated.png)
   
 1. After review the ToDo list, confirm to Bob that you want to create the implementation plan.
 
@@ -360,24 +360,28 @@ Follow these steps to prompt Bob to implement the plan:
    At the end of each phase, tell me to pause and review the results, and then show me the updated checklist with completed items. 
    At the end of each phase, include a summary of what was implemented, and then pause so that I can review the implementation and approve starting the next phase. 
    Show me an updated ToDo list, sorted by phase, after each phase. 
-   Create an phase_x_implementation_log.md file for each phase. 
+   Create an phase_x_implementation_log.md file for each phase.
    ```
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob.
 
-In the subsequent phases, Bob creates several Python modules similar to the following files:
-   - data_preparation.py
-   - feature_engineering.py
-   - model_training.py
-   - model_interpretation.py
-   - prediction.py
-   - app.py
+1. Review the implementation plan ToDo list.
+
+   ![ToDo list](images/todo-list.png)
 
 [Back to the top of Task 4](#task4)
 
 ***
 
 ## Phase 1: Project setup
+
+1. Switch to **Agent** mode.
+
+1. Click **New task**, and then prompt Bob to implement phase 1:
+
+   ```
+   Implement phase 1. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
 
 1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
 
@@ -388,13 +392,21 @@ In the subsequent phases, Bob creates several Python modules similar to the foll
    - .gitignore: 64 lines covering Python, IDEs, virtual environments, and OS files
    - phase_1_implementation_log.md: log file for the implementation of phase 1
 
+1. Review the updated ToDo list and the phase implementation summary.
+
 [Back to the top of Task 4](#task4)
 
 ***
 
 ## Phase 2: Module 1 - Data preparation
 
-1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
+1. Click **New task**, and then prompt Bob to implement phase 2:
+
+   ```
+   Implement phase 2. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
 1. When prompted, run `data_preparation.py` to create the train, test and holdout datasets.
 
@@ -403,17 +415,27 @@ In the subsequent phases, Bob creates several Python modules similar to the foll
    - test.csv
    - holdout.csv
 
+1. Review the updated ToDo list and the phase implementation summary.
+
 [Back to the top of Task 4](#task4)
 
 ***
 
 ## Phase 3: Module 2 - Feature engineering
 
-1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
+1. Click **New task**, and then prompt Bob to implement phase 3:
+
+   ```
+   Implement phase 3. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
 1. Run the `feature_engineering.py` module when prompted. 
 
    If you encounter errors, Bob may suggest fixes.
+
+1. Review the updated ToDo list and the phase implementation summary.
 
 [Back to the top of Task 4](#task4)
 
@@ -421,9 +443,17 @@ In the subsequent phases, Bob creates several Python modules similar to the foll
 
 ## Phase 4: Module 3 - Model training
 
-1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
+1. Click **New task**, and then prompt Bob to implement phase 4:
+
+   ```
+   Implement phase 4. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
 1. When prompted, run the `model_training.py` module.
+
+1. Review the updated ToDo list and the phase implementation summary.
 
 [Back to the top of Task 4](#task4)
 
@@ -431,9 +461,17 @@ In the subsequent phases, Bob creates several Python modules similar to the foll
 
 ## Phase 5: Module 4 - Model interpretation
 
-1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
+1. Click **New task**, and then prompt Bob to implement phase 5:
+
+   ```
+   Implement phase 5. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
 1. When prompted, run the `model_interpretation.py` module.
+
+1. Review the updated ToDo list and the phase implementation summary.
 
 [Back to the top of Task 4](#task4)
 
@@ -441,9 +479,17 @@ In the subsequent phases, Bob creates several Python modules similar to the foll
 
 ## Phase 6: Module 5 - Model predictions
 
-1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
+1. Click **New task**, and then prompt Bob to implement phase 6:
+
+   ```
+   Implement phase 6. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
 1. When prompted, allow Bob to run `prediction.py` module to test the model.
+
+1. Review the updated ToDo list and the phase implementation summary.
 
 [Back to the top of Task 4](#task4)
 
@@ -451,9 +497,17 @@ In the subsequent phases, Bob creates several Python modules similar to the foll
 
 ## Phase 7: Module 6 - Streamlit Web UI
 
-1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
+1. Click **New task**, and then prompt Bob to implement phase 7:
+
+   ```
+   Implement phase 7. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
 1. When prompted, allow Bob to run `streamlit_app.py` module to create the web application.
+
+1. Review the updated ToDo list and the phase implementation summary.
 
 [Back to the top of Task 4](#task4)
 
@@ -468,7 +522,13 @@ During the testing phase, Bob validates:
 - Predictions
 - Documentation
 
-1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
+1. Click **New task**, and then prompt Bob to implement phase 8:
+
+   ```
+   Implement phase 8. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
    Bob creates:
    - Tests for each of the Python modules
@@ -479,6 +539,8 @@ During the testing phase, Bob validates:
 1. Approve the updated ToDo list that displays, and review the summary:
 
    ![phase 8 complete](images/phase08-todo.png)
+
+1. Review the updated ToDo list and the phase implementation summary.
 
 [Back to the top of Task 4](#task4)
 
@@ -500,35 +562,35 @@ Now that the application is built, follow these steps to test the application:
 
 1. Open the application at [http://localhost:8501](http://localhost:8501) in a browser to try the app.
 
-   1. If the app doesn't run in a browser, ask Bob to launch the app and provide you with the URL to open the app in a browser.
+1. If the app doesn't run in a browser, ask Bob to launch the app and provide you with the URL to open the app in a browser.
 
-   1. Click **Proceed While Running** to continue.
+1. Click **Proceed While Running** to continue.
 
-   1. Select several player match ups and predict the outcomes.
+1. Select several player match ups and predict the outcomes.
 
-      ![test web app](images/test-web-app.png)
+   ![test web app](images/test-web-app.png)
    
-   1. If you encounter any errors in the app, ask Bob to help you troubleshoot the error. For example:
+1. If you encounter any errors in the app, ask Bob to help you troubleshoot the error. For example:
 
-      ```
-      I’m testing the app and after selecting players, I see "Error making prediction: No module named 'feature_engineering’” Can you troubleshoot the cause of the error?
-      ```
+   ```
+   I’m testing the app and after selecting players, I see "Error making prediction: No module named 'feature_engineering’” Can you troubleshoot the cause of the error?
+   ```
 
-   1. Optional: Ask Bob to enhance the application with additional features.
+1. Optional: Ask Bob to enhance the application with additional features.
 
 ***
 
 ## Summary
 
-In this lab, you used IBM Bob, your agentic AI development partner, to:
+In this lab, you used IBM Bob to:
 
-- Built an end-to-end machine learning pipeline using real-world sports data
-- Performed data preparation, feature engineering, and model training (Random Forest)
-- Evaluated and interpreted model performance using metrics and feature importance
-- Developed and deployed an interactive web application using Streamlit
-- Applied best practices such as preventing data leakage and validating models
-- Collaborated with an AI coding assistant to plan, implement, and test a full application
-- Managed development artifacts and documentation using structured workflows
+- Build an end-to-end machine learning pipeline using real-world sports data.
+- Perform data preparation, feature engineering, and model training (Random Forest).
+- Evaluate and interpreted model performance using metrics and feature importance.
+- Develop and deployed an interactive web application using Streamlit
+- Apply best practices such as preventing data leakage and validating models.
+- Collaborate with an AI coding assistant to plan, implement, and test a full application.
+- Manage development artifacts and documentation using structured workflows.
 
 ***
 
