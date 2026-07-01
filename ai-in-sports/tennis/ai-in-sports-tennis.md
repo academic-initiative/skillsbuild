@@ -380,7 +380,9 @@ Follow these steps to prompt Bob to implement the plan:
 1. Click **New task**, and then prompt Bob to implement phase 1:
 
    ```
-   Implement phase 1. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 1.
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Review the ToDo list that Bob created, and click **Approve once** when prompted by Bob.
@@ -403,7 +405,9 @@ Follow these steps to prompt Bob to implement the plan:
 1. Click **New task**, and then prompt Bob to implement phase 2:
 
    ```
-   Implement phase 2. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 2. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
@@ -426,7 +430,9 @@ Follow these steps to prompt Bob to implement the plan:
 1. Click **New task**, and then prompt Bob to implement phase 3:
 
    ```
-   Implement phase 3. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 3. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
@@ -446,7 +452,9 @@ Follow these steps to prompt Bob to implement the plan:
 1. Click **New task**, and then prompt Bob to implement phase 4:
 
    ```
-   Implement phase 4. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 4. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
@@ -464,7 +472,9 @@ Follow these steps to prompt Bob to implement the plan:
 1. Click **New task**, and then prompt Bob to implement phase 5:
 
    ```
-   Implement phase 5. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 5. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
@@ -482,7 +492,9 @@ Follow these steps to prompt Bob to implement the plan:
 1. Click **New task**, and then prompt Bob to implement phase 6:
 
    ```
-   Implement phase 6. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 6. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
@@ -500,7 +512,9 @@ Follow these steps to prompt Bob to implement the plan:
 1. Click **New task**, and then prompt Bob to implement phase 7:
 
    ```
-   Implement phase 7. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 7. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
@@ -525,7 +539,9 @@ During the testing phase, Bob validates:
 1. Click **New task**, and then prompt Bob to implement phase 8:
 
    ```
-   Implement phase 8. Provide a summary at the end of the phase, and show an updated ToDo list. Pause to let me review.
+   Implement phase 8. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
