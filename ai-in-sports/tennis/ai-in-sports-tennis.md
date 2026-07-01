@@ -287,6 +287,8 @@ Follow these steps to review and approve the implementation plan:
 
    <img src="images/review-plan.png" alt="Review plan" height="100%">
 
+   ![Review plan](images/review-plan.png "Review plan")
+
 1. In Bob's chat panel, copy and paste the following prompt ask Bob to create the initial implementation plan document:
 
    ```
