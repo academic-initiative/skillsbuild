@@ -285,7 +285,7 @@ Follow these steps to review and approve the implementation plan:
 
 1. Review the proposed implementation plan. Do not start implementation at this point. Note that your plan might look different than the plan shown in the following image:
 
-   <img src="images/review-plan.png" alt="Review plan" height="100%">
+   <img src="images/review-plan.png" alt="Review plan" height="50%">
 
    ![Review plan](images/review-plan.png "Review plan")
 
