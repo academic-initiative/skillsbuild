@@ -30,7 +30,7 @@ By the end of the lab, you should be able to:
 flowchart LR
     A[User / Developer] --> B[IBM Bob Agent]
     B --> C[Plan Mode]
-    B --> D[Code Mode]
+    B --> D[Agent Mode]
     D --> E[ML Pipeline]
     E --> F[Data Preparation]
     E --> G[Feature Engineering]
