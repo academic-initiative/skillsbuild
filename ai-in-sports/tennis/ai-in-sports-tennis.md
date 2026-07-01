@@ -152,9 +152,7 @@ Complete the prerequisite tasks of [Get started with IBM Bob](get-started-with-i
 - [Task 2: Create an implementation plan](#task02)
 - [Task 3: Review the implementation plan](#task03)
 - [Task 4: Implement the plan](#task04)
-- [Task 5: Understanding Grounded AI (The Most Important Lesson)](#task05)
-- [Task 6: Build a Team Formation Visualizer](#task06)
-- [Extra Challenges](#challenges)
+- [Task 5: Test the predictor application](#task05)
 - [Summary](#summary)
 - [Additional resources](#additional-resources)
 
@@ -287,7 +285,7 @@ Follow these steps to review and approve the implementation plan:
 
 1. Review the proposed implementation plan. Do not start implementation at this point. Note that your plan might look different than the plan shown in the following image:
 
-   ![review plan](images/review-plan.png)
+   <img src="images/review-plan.png" alt="Review plan" height="50%">
 
 1. In Bob's chat panel, copy and paste the following prompt ask Bob to create the initial implementation plan document:
 
@@ -301,7 +299,7 @@ Follow these steps to review and approve the implementation plan:
     - Saved`IMPLEMENTATION_PLAN.md`
     - Updated Todo List:
 
-      ![review todo list](images/plan-todo-list-updated.png)
+      <img src="images/plan-todo-list-updated.png" alt="Review ToDo list" height="50%">
   
 1. After review the ToDo list, confirm to Bob that you want to create the implementation plan.
 
@@ -367,7 +365,7 @@ Follow these steps to prompt Bob to implement the plan:
 
 1. Review the implementation plan ToDo list.
 
-   ![ToDo list](images/todo-list.png)
+   <img src="images/todo-list.png" alt="ToDo list" height="50%">
 
 [Back to the top of Task 4](#task4)
 
@@ -552,10 +550,6 @@ During the testing phase, Bob validates:
 
 1. Review and run the integration test code that Bob creates.
 1. Verify that all tests pass.
-1. Approve the updated ToDo list that displays, and review the summary:
-
-   ![phase 8 complete](images/phase08-todo.png)
-
 1. Review the updated ToDo list and the phase implementation summary.
 
 [Back to the top of Task 4](#task4)
@@ -564,7 +558,7 @@ During the testing phase, Bob validates:
 
 Prompt Bob to provide a final summary of the implementation, and review the final completion.
 
-![All phases complete](images/final-summary.png)
+<img src="images/final-summary.png" alt="All phases complete" height="125%">
 
 [Back to the top](#top)
 
