@@ -285,7 +285,7 @@ Follow these steps to review and approve the implementation plan:
 
 1. Review the proposed implementation plan. Do not start implementation at this point. Note that your plan might look different than the plan shown in the following image:
 
-   <img src="images/review-plan.png" alt="Review plan" height="50%">
+   <img src="images/review-plan.png" alt="Review plan" height="25%">
 
 1. In Bob's chat panel, copy and paste the following prompt ask Bob to create the initial implementation plan document:
 
@@ -299,7 +299,7 @@ Follow these steps to review and approve the implementation plan:
     - Saved`IMPLEMENTATION_PLAN.md`
     - Updated Todo List:
 
-      <img src="images/plan-todo-list-updated.png" alt="Review ToDo list" height="50%">
+      <img src="images/plan-todo-list-updated.png" alt="Review ToDo list" height="25%">
   
 1. After review the ToDo list, confirm to Bob that you want to create the implementation plan.
 
@@ -365,7 +365,7 @@ Follow these steps to prompt Bob to implement the plan:
 
 1. Review the implementation plan ToDo list.
 
-   <img src="images/todo-list.png" alt="ToDo list" height="50%">
+   <img src="images/todo-list.png" alt="ToDo list" height="25%">
 
 [Back to the top of Task 4](#task4)
 
