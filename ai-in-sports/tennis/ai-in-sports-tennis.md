@@ -173,7 +173,7 @@ Follow these steps to set up the project in IBM Bob.
 1. In IBM Bob, locate the chat side panel.
 1. In the Bob chat side panel, select **Agent** mode.
 
-   <img src="images/bob-panel.png" alt="Modes panel" style="height: 100%; width: auto;">
+   <img src="images/bob-panel.png" alt="Modes panel" style="max-width: 50%">
 
 1. In IBM Bob, click **File > Open Folder**, select the `tennis-predictor` folder, and click **Open**.
 1. Prompt Bob to confirm that you have Python installed.
@@ -285,7 +285,7 @@ Follow these steps to review and approve the implementation plan:
 
 1. Review the proposed implementation plan. Do not start implementation at this point. Note that your plan might look different than the plan shown in the following image:
 
-   <img src="images/plan-todo-list-updated.png" alt="Review plan" style="height: 100%; width: auto;">
+   <img src="images/plan-todo-list-updated.png" alt="Review plan" style="max-width: 50%">
 
 1. In Bob's chat panel, copy and paste the following prompt ask Bob to create the initial implementation plan document:
 
@@ -299,7 +299,7 @@ Follow these steps to review and approve the implementation plan:
     - Saved`IMPLEMENTATION_PLAN.md`
     - Updated Todo List:
 
-      <img src="images/plan-todo-list-updated.png" alt="Review ToDo list" style="height: 100%; width: auto;">
+      <img src="images/plan-todo-list-updated.png" alt="Review ToDo list" style="max-width: 50%">
   
 1. After review the ToDo list, confirm to Bob that you want to create the implementation plan.
 
@@ -365,7 +365,7 @@ Follow these steps to prompt Bob to implement the plan:
 
 1. Review the implementation plan ToDo list.
 
-   <img src="images/todo-list.png" alt="ToDo list" style="height: 100%; width: auto;">
+   <img src="images/todo-list.png" alt="ToDo list" style="max-width: 50%">
 
 [Back to the top of Task 4](#task04)
 
@@ -558,7 +558,7 @@ During the testing phase, Bob validates:
 
 Prompt Bob to provide a final summary of the implementation, and review the final completion.
 
-<img src="images/final-summary.png" alt="All phases complete" style="height: 776; width:420">
+<img src="images/final-summary.png" alt="All phases complete" style="max-width: 100%">
 
 [Back to the top](#top)
 
