@@ -98,7 +98,7 @@ Follow these steps to create a directory and open that directory in Bob:
 
 1. Verify that you are in *Ask* mode.
 
-   ![Bob modes](images/bob-panel.png)
+   <img src="images/bob-panel.png" alt="Modes panel" width="35%">
 
 1. Copy and paste the following prompt to Bob and review the response:
     ```
