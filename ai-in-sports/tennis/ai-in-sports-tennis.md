@@ -558,7 +558,7 @@ During the testing phase, Bob validates:
 
 Prompt Bob to provide a final summary of the implementation, and review the final completion.
 
-<img src="images/final-summary.png" alt="All phases complete" width="50%">
+<img src="images/final-summary.png" alt="All phases complete">
 
 [Back to the top](#top)
 
