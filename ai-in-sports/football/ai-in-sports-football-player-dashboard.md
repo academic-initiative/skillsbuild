@@ -98,6 +98,8 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../get-started-wit
 
 Watch the following video to see a preview of the steps in this tutorial.
 
+**Note:** Some user interface elements in the video might look different from your IBM Bob environment.
+
 **Tip:** Right-click the following thumbnail image, and open the video in a new tab.
 
 <a href="https://video.ibm.com/embed/channel/23669513/video/football-dashboard">![Video preview of tutorial](images/video-thumbnail-football.jpg "Video preview of tutorial")</a>
@@ -110,12 +112,12 @@ Watch the following video to see a preview of the steps in this tutorial.
 
 In this task, you clone the starter project, install dependencies, and confirm that the development server runs correctly.
 
-### Task 1a: Activate Bob's Code mode
+### Task 1a: Activate Bob's Agent mode
 
-IBM Bob has different modes for different tasks. For this lab, you'll use **Code** mode, which helps you write and modify code.
+IBM Bob has different modes for different tasks. For this lab, you'll use **Agent** mode, which helps you write and modify code.
 
 1. Look for the Bob chat side panel.
-2. Select **Code** mode.
+2. Select **Agent** mode.
 
    ![IBM Bob panel](images/bob-panel.png)
 
@@ -129,8 +131,6 @@ Before you can build the application, you need a few tools installed on your com
 - **Git** - A tool for downloading code from the internet and tracking changes to your files
 
 Don't worry if you don't have these installed yet - IBM Bob will help you check and install them!
-
-1. Open **IBM Bob**.
 
 2. In Bob's chat panel, copy and paste the following prompt:
 
@@ -169,7 +169,7 @@ The `template-carbon-react` is a pre-built starter project that includes everyth
 
    ![Clone Repo](./images/clone-repo.png)
 
-2. **Important:** In IBM Bob, click **File > Open Folder**, then open the `template-carbon-react` folder you just cloned.
+2. **Important:** In IBM Bob, click **File > Open Folder**, then open the `template-carbon-react` folder that you just cloned.
 
    This ensures all file paths in subsequent prompts work correctly.
 
@@ -274,6 +274,8 @@ Before using your API key in the application, you need to store it securely. Her
 
    ![Bob Creating .env File](./images/bob-prompt-2.png)
 
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
+
 1. After Bob creates the `.env` file, replace `your_api_key_here` with the actual API key you copied from API-Football in Step 2a, and save the file.
 
 #### Step 2c: Download player data from API-Football
@@ -354,7 +356,7 @@ The API requires authentication - that's why you set up the API key in Step 2a. 
 
    ![Bob previewing the data](./images/bob-prompt-3.png)
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
    When the tasks are complete, you see: `Excellent! The script ran successfully and saved 40 players to src/data/players.json. Let me verify the data was saved correctly by reading a sample of the file.`
 
@@ -419,7 +421,7 @@ The starter template you downloaded includes many features you don't need for th
    After these changes, the app should show just a clean page with a header, ready for us to add our player selector.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 1. After Bob makes these changes, refresh your browser at `http://localhost:3000` to see the simplified application. A clean page with just the *Player Dashboard* header displays.
 
@@ -467,7 +469,7 @@ Now let's add the first interactive feature to your application - a dropdown men
    After you make these changes, I should be able to see a dropdown menu on my page with all the player names.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 1. After Bob completes the changes, check your browser at `http://localhost:3000`. You see:
    - A dropdown menu with player names
@@ -565,7 +567,7 @@ Now that you can select a player, let's display their detailed information in a 
    After you make these changes, I should see detailed player information display below the dropdown when I select a player.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 1. After Bob completes the changes, you may need to restart the application to see the new component. Follow these steps:
    1. In the terminal, press `Ctrl+C` to stop the server.
@@ -618,7 +620,7 @@ First, let's create a feature that fetches player information from Wikipedia. Th
    Note: Use the Wikipedia API (no API key needed) to fetch the summary.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 1. After Bob completes the changes, follow these steps:
    1. If your app is still running, stop it by pressing `Ctrl+C` in the terminal.
@@ -716,7 +718,7 @@ Your dataset contains **only 8 fields**:
    - Small note: "This summary is based only on the loaded dataset."
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 1. After Bob completes the changes, follow these steps:
    1. If your app is still running, stop it by pressing `Ctrl+C` in the terminal.
@@ -828,7 +830,7 @@ This lesson applies to any system where accuracy matters:
    Use inline styling and include proper type definitions for the player data.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 ### Task 6b: Create team generator helper
 
@@ -847,7 +849,7 @@ This lesson applies to any system where accuracy matters:
    Keep the logic simple with no filtering by position - just pure random selection. Include proper type definitions and make sure the function can be used by other parts of the application.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 ### Task 6c: Add navigation and formation page
 
@@ -883,7 +885,7 @@ This lesson applies to any system where accuracy matters:
    The application should now have two distinct pages accessible via the header navigation.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 **Test your progress:**
 
@@ -938,7 +940,7 @@ The field will look basic at this stage - you'll make it look professional in th
    Use inline styling only. Ensure all markings are precisely positioned, perfectly symmetric, and match the reference image provided.
    ```
 
-1. To confirm permission to complete the tasks, click **Approve**, **Run**, and **Save** when prompted by Bob.
+1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
 ### Task 6e: Test the enhanced formation visualizer
 
