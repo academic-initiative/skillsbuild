@@ -80,9 +80,10 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../get-started-wit
 
 Follow these steps to create a directory and open that directory in Bob:
 
-1. Download the [ai-in-sports-football-predictor.zip](https://github.com/academic-initiative/skillsbuild/blob/main/ai-in-sports/data/ai-in-sports-football-predictor.zip) from the IBM SkillsBuild GitHub repository to the folder you just created.
+1. Choose a folder location for the lab work.
+1. Download the [ai-in-sports-football-predictor.zip](https://github.com/academic-initiative/skillsbuild/blob/main/ai-in-sports/data/ai-in-sports-football-predictor.zip) from the IBM SkillsBuild GitHub repository to the folder you chose in step 1.
 1. In IBM Bob, verify whether the terminal panel is visible. If you don't see a terminal panel, click **Terminal > New Terminal**.
-1. Choose a folder location for the lab work, and use the `cd` command in the terminal panel to move into that folder.
+1. Use the `cd` command in the terminal panel to move into that folder.
 1. Execute the following commands to create the directory and unzip the repository.
 
    ```
@@ -94,6 +95,7 @@ Follow these steps to create a directory and open that directory in Bob:
    1. Click **File > Open Folder**.
    1. Navigate to the `football-predictor` folder.
    1. Click **Open**.
+
 1. Verify that you are in *Ask* mode.
 
    ![Bob modes](images/bob-panel.png)
@@ -102,6 +104,7 @@ Follow these steps to create a directory and open that directory in Bob:
     ```
     Hey Bob, What's my current working directory?
     ```
+1. Verify that the working folder is correct.
 
 [Back to the top](#top)
 
