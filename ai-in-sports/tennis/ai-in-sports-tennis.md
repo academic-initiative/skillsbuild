@@ -173,7 +173,7 @@ Follow these steps to set up the project in IBM Bob.
 1. In IBM Bob, locate the chat side panel.
 1. In the Bob chat side panel, select **Agent** mode.
 
-   <img src="images/bob-panel.png" alt="Modes panel" width="50%">
+   <img src="images/bob-panel.png" alt="Modes panel" width="35%">
 
 1. In IBM Bob, click **File > Open Folder**, select the `tennis-predictor` folder, and click **Open**.
 1. Prompt Bob to confirm that you have Python installed.
@@ -343,7 +343,7 @@ In this task, you will implement the plan through a series of prompts that write
 - Phase 5: Module 4 - Model interpretation
 - Phase 6: Module 5 - Live predictions challenge
 - Phase 7: Module 6 - Streamlit Web UI
-- Phase 8: End-to-end testing and documentation
+- Phase 8: Testing
 
 Follow these steps to prompt Bob to implement the plan: 
 
@@ -373,6 +373,8 @@ Follow these steps to prompt Bob to implement the plan:
 
 ## Phase 1: Project setup
 
+In this phase, Bob sets up the project files.
+
 1. Switch to **Agent** mode.
 
 1. Click **New task**, and then prompt Bob to implement phase 1:
@@ -400,6 +402,8 @@ Follow these steps to prompt Bob to implement the plan:
 
 ## Phase 2: Module 1 - Data preparation
 
+In this phase, Bob creates the training, testing, and holdout data from the ATP tennis dataset.
+
 1. Click **New task**, and then prompt Bob to implement phase 2:
 
    ```
@@ -425,6 +429,8 @@ Follow these steps to prompt Bob to implement the plan:
 
 ## Phase 3: Module 2 - Feature engineering
 
+In this phase, Bob transforms the raw data into features that help a machine learning model learn patterns and make more accurate predictions.
+
 1. Click **New task**, and then prompt Bob to implement phase 3:
 
    ```
@@ -447,6 +453,8 @@ Follow these steps to prompt Bob to implement the plan:
 
 ## Phase 4: Module 3 - Model training
 
+In this phase, Bob trains a Random Forest classifier machine learning model on the training dataset, evaluates it on the test dataset, and serialises it.
+
 1. Click **New task**, and then prompt Bob to implement phase 4:
 
    ```
@@ -466,6 +474,8 @@ Follow these steps to prompt Bob to implement the plan:
 ***
 
 ## Phase 5: Module 4 - Model interpretation
+
+In this phase, Bob examines why the predictive model makes its predictions and which features have the greatest influence on those predictions.
 
 1. Click **New task**, and then prompt Bob to implement phase 5:
 
@@ -487,6 +497,8 @@ Follow these steps to prompt Bob to implement the plan:
 
 ## Phase 6: Module 5 - Model predictions
 
+In this phase, Bob runs the trained model on the holdout dataset and produces a results table comparing predictions to actuals.
+
 1. Click **New task**, and then prompt Bob to implement phase 6:
 
    ```
@@ -507,6 +519,8 @@ Follow these steps to prompt Bob to implement the plan:
 
 ## Phase 7: Module 6 - Streamlit Web UI
 
+In this phase, Bob delivers a runnable interactive web UI for two-player match prediction.
+
 1. Click **New task**, and then prompt Bob to implement phase 7:
 
    ```
@@ -525,14 +539,15 @@ Follow these steps to prompt Bob to implement the plan:
 
 ***
 
-## Phase 8: End-to-end testing and documentation
+## Phase 8: Testing
+
+In this phase, verify the correctness of the data pipeline and feature engineering, and confirm the full application runs end-to-end without errors.
 
 During the testing phase, Bob validates:
 
 - Data artifacts
 - Model
 - Predictions
-- Documentation
 
 1. Click **New task**, and then prompt Bob to implement phase 8:
 
