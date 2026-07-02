@@ -76,7 +76,7 @@ This lab uses real player data from the **API-Football** service. You have two o
 
 **Tip:** Right-click the following link, and open the page in a new tab.
 
-Complete the prerequisite tasks of [Get started with IBM Bob](get-started-with-ibm-bob.md)
+Complete the prerequisite tasks of [Get started with IBM Bob](../get-started-with-ibm-bob.md)
 
 ***
 

@@ -142,7 +142,7 @@ The following table summarizes the dataset.
 
 **Tip:** Right-click the following link, and open the page in a new tab.
 
-Complete the prerequisite tasks of [Get started with IBM Bob](get-started-with-ibm-bob.md)
+Complete the prerequisite tasks of [Get started with IBM Bob](../get-started-with-ibm-bob.md)
 
 ***
 
