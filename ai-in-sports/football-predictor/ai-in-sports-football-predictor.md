@@ -149,7 +149,7 @@ Follow these steps to set up your environment to complete this lab:
 
 1. Click **Approve once** to run the command to start Jupyter Lab.
 
-   **Note:** You may need to click **Proced while running** to get the clean URL info.
+   **Note:** You may need to click **Procedd while running** to get the clean URL info.
 
 1. Click the link that Bob provides (or copy-paste it into your browser). Your browser will open Jupyter Lab.
 1. If the `corelab.ipynb` notebook does not open, find and open the lab notebook.
