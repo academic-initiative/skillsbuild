@@ -558,7 +558,7 @@ During the testing phase, Bob validates:
 
 Prompt Bob to provide a final summary of the implementation, and review the final completion.
 
-<img src="images/final-summary.png" alt="All phases complete">
+<img src="images/final-summary.png" alt="All phases complete" width="75%">
 
 [Back to the top](#top)
 
@@ -578,7 +578,7 @@ Now that the application is built, follow these steps to test the application:
 
 1. Select several player match ups and predict the outcomes.
 
-   ![Test web app](images/test-web-app.png)
+   <img src="images/test-web-app.png" alt="Test web application" width="75%">
    
 1. If you encounter any errors in the app, ask Bob to help you troubleshoot the error. For example:
 
