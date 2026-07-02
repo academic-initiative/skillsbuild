@@ -25,7 +25,7 @@ After completing this lab, you should be able to:
 
 ## About this lab
 
-In this lab, you'll build a **complete machine learning application** that predicts soccer match winners using data analysis and machine learning in Jupyter notebooks.
+In this lab, you'll build a **complete machine learning application** that predicts football match winners using data analysis and machine learning in Jupyter notebooks.
 
 Bob writes all the code for you! You will:
 - Read what each step does.
@@ -180,7 +180,7 @@ I'm all done with the lab! Please stop Jupyter Lab and clean up for me.
 
 ## Summary
 
-In this lab, you used IBM Bob to build a **complete machine learning application** that predicts soccer match winners using data analysis and machine learning in Jupyter notebooks.
+In this lab, you used IBM Bob to build a **complete machine learning application** that predicts football match winners using data analysis and machine learning in Jupyter notebooks.
 
 ### What you learned
 
