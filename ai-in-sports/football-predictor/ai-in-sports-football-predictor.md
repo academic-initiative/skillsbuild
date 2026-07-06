@@ -72,6 +72,18 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../get-started-wit
 - [Task 3: Start Jupyter Lab to run the notebook](#task03)
 - [Task 4: Clean up when you're done](#task04)
 
+# Preview the tutorial
+
+Watch the following video to see a preview of the steps in this tutorial.
+
+**Note:** Some user interface elements in the video might look different from your IBM Bob environment.
+
+**Tip:** Right-click the following thumbnail image, and open the video in a new tab.
+
+<a href="https://video.ibm.com/embed/channel/23669513/video/football-predictor">![Video preview of tutorial](images/video-thumbnail-football-predictor.jpg "Video preview of tutorial")</a>
+
+***
+
 <a name="task01"></a>
 
 ## Task 1: Open Bob in your working directory
