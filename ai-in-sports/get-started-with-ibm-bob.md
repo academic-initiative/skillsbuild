@@ -37,4 +37,17 @@ Now that you have a trial account, follow these steps to install IBM Bob:
 1. From within the IBM Bob environment, click **Log in to Bob**.
 1. If prompted, sign in using your new IBM account credentials.
 
+
+## Enable the workspace in settings
+
+Follow these steps to control whether Bob is allowed make requests to use tool outside your current workspace directory:
+
+1. Click the **Settings** ![Settings](images/settings.svg "Settings") icon.
+
+1. Select **Chat**.
+
+1. Under the *Workspace sandbox* section, enable **Allow outside workspace tool requests**.
+
+1. Close the settings window.
+
 For more information, refer to the [IBM Bob documentation](https://bob.ibm.com/docs/ide).
