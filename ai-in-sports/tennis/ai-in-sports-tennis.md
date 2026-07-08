@@ -336,6 +336,8 @@ By creating a persistent implementation plan file in your codebase, you force th
 
 In this task, you will implement the plan through a series of prompts that writes code and then executes the code for each phase of the implementation plan.
 
+**Note:** The following phases might very slightly from your results. Adapt the prompts as necessary to your results.
+
 - Phase 1: Project setup
 - Phase 2: Module 1 - Data preparation
 - Phase 3: Module 2 - Feature engineering
@@ -344,6 +346,7 @@ In this task, you will implement the plan through a series of prompts that write
 - Phase 6: Module 5 - Live predictions challenge
 - Phase 7: Module 6 - Streamlit Web UI
 - Phase 8: Testing
+- Phase 9: Final Validation
 
 Follow these steps to prompt Bob to implement the plan: 
 
@@ -569,9 +572,19 @@ During the testing phase, Bob validates:
 
 [Back to the top of Task 4](#task04)
 
-## Final completion
+## Phase 9: Final Validation
 
-Prompt Bob to provide a final summary of the implementation, and review the final completion.
+In this phase, Bob validates the application and all of its components.
+
+1. Click **New task**, and then prompt Bob to implement phase 9:
+
+   ```
+   Implement phase 9. 
+   Provide a summary at the end of the phase, and show an updated ToDo list. 
+   Pause to let me review.
+   ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
 
 <img src="images/final-summary.png" alt="All phases complete" width="75%">
 
@@ -584,6 +597,8 @@ Prompt Bob to provide a final summary of the implementation, and review the fina
 # Task 5: Test the predictor application
 
 Now that the application is built, follow these steps to test the application:
+
+1. Prompt Bob to provide you with the URL to open the app in a browser.
 
 1. Open the application at [http://localhost:8501](http://localhost:8501) in a browser to try the app.
 

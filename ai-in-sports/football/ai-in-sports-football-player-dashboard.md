@@ -358,7 +358,7 @@ The API requires authentication - that's why you set up the API key in Step 2a. 
 
 1. Click **Approve once** when prompted by Bob to grant permissions and run command to complete the tasks.
 
-   When the tasks are complete, you see: `Excellent! The script ran successfully and saved 40 players to src/data/players.json. Let me verify the data was saved correctly by reading a sample of the file.`
+   When the tasks are complete, you see a sample of a player record.
 
    ![Bob showing the data](./images/bob-get-data.png)
 
