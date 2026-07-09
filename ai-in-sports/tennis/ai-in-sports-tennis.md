@@ -336,7 +336,7 @@ By creating a persistent implementation plan file in your codebase, you force th
 
 In this task, you will implement the plan through a series of prompts that writes code and then executes the code for each phase of the implementation plan.
 
-**Note:** The following phases might very slightly from your results. Adapt the prompts as necessary to your results.
+**Note:** The following phases might vary slightly from your results. Adapt the prompts as necessary to your results.
 
 - Phase 1: Project setup
 - Phase 2: Module 1 - Data preparation
@@ -346,7 +346,6 @@ In this task, you will implement the plan through a series of prompts that write
 - Phase 6: Module 5 - Live predictions challenge
 - Phase 7: Module 6 - Streamlit Web UI
 - Phase 8: Testing
-- Phase 9: Final Validation
 
 Follow these steps to prompt Bob to implement the plan: 
 
@@ -572,16 +571,15 @@ During the testing phase, Bob validates:
 
 [Back to the top of Task 4](#task04)
 
-## Phase 9: Final Validation
+## Final validation
 
-In this phase, Bob validates the application and all of its components.
+Lastly, you want to ask Bob for final validation.
 
-1. Click **New task**, and then prompt Bob to implement phase 9:
+1. Click **New task**, and then prompt Bob:
 
    ```
-   Implement phase 9. 
-   Provide a summary at the end of the phase, and show an updated ToDo list. 
-   Pause to let me review.
+   Validate the application and all of its components.
+   Provide a final summary and checklist.
    ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to complete the tasks.
