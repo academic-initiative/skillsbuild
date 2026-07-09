@@ -216,7 +216,8 @@ Follow these steps to set up the project in IBM Bob.
 
 
    ```txt
-   Build a machine learning web application that predicts the outcome (win probability) of a match between two ATP players.
+   Build a machine learning web application that predicts the outcome
+   (win probability) of a match between two ATP players.
 
    The project is structured with these modules:
  
@@ -268,7 +269,7 @@ Follow these steps to set up the project in IBM Bob.
    4. RISKS & TRADE-OFFS
       - Call out the top 3 risks (e.g., data leakage, time-based vs. random train/test split, high-cardinality   encoding) and your recommended approach for each.
 
-   Create a ToDo list of tasks for my review. 
+   Don't create a plan document yet, just create a ToDo list of tasks for my review. 
    ```
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob. Bob might aska you to confirm key design decisions. Review and select one of the proposed options.
@@ -297,7 +298,7 @@ Follow these steps to review and approve the implementation plan:
    ```
  1. Review the results: 
     - Saved`IMPLEMENTATION_PLAN.md`
-    - Updated Todo List:
+    - Updated Todo list should look similiar to the following image:
 
       <img src="images/plan-todo-list-updated.png" alt="Review ToDo list" width="50%">
   
@@ -354,10 +355,11 @@ Follow these steps to prompt Bob to implement the plan:
 1. Copy and paste the following prompt ask Bob implement the application by executing phases from your implementation plan sequentially.
 
    ```
-   Implement the ATP tennis match prediction web application by executing the implementation plan document, implementation_plan.md, sequentially for each phase. 
+   I want you to create the ATP tennis match prediction web application by executing the implementation plan document, implementation_plan.md, sequentially for each phase. 
    Each module must undergo mandatory testing and review before proceeding to the next phase. 
    All decisions, test results, and any deviations from the plan should be thoroughly documented throughout the implementation process. 
-   At the end of each phase, tell me to pause and review the results, and then show me the updated checklist with completed items. 
+   Pause and wait for me to confirm beginning phase 1.
+   At the end of each phase, I want you to tell me to pause and review the results, and then show me the updated checklist with completed items. 
    At the end of each phase, include a summary of what was implemented, and then pause so that I can review the implementation and approve starting the next phase. 
    Show me an updated ToDo list, sorted by phase, after each phase. 
    Create an phase_x_implementation_log.md file for each phase.
