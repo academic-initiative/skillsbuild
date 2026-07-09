@@ -377,8 +377,6 @@ Follow these steps to prompt Bob to implement the plan:
 
 In this phase, Bob sets up the project files.
 
-1. Switch to **Agent** mode.
-
 1. Click **New task**, and then prompt Bob to implement phase 1:
 
    ```
