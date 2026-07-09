@@ -291,7 +291,7 @@ Follow these steps to review and approve the implementation plan:
 
    ```
    Approve all the recommendations and create an implementation plan with the file name IMPLEMENTATION_PLAN.MD in Markdown format before starting the coding phase.
-   The first phase should be for project setup, then each module is in it's own phase, and a final phase to test the implementation.
+   Phase 1 should be for project setup, then each module is in it's own phase, and a final phase to test the implementation.
    Pause so that I can review the ToDo list before you create an implementation plan document.
    After creating the implementation plan, list the phases from the implementation plan.
    ```
