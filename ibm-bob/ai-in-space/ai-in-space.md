@@ -64,6 +64,7 @@ The `space_weather_unified.csv` dataset contains all space weather events in a u
 
 ## Architecture flow
 
+```mermaid
 flowchart TD
     A[Raw CSV\nspace_weather_unified.csv] --> B[Task 3: Clean Data\nspace_df]
     B --> C[Task 4: EDA\nCharts + Stats]
@@ -72,7 +73,7 @@ flowchart TD
     E --> F[Task 7: Train RandomForest\nmodel]
     E --> G[Task 8: Save model + data\nmodels/*.pkl]
     G --> H[Task 9: Go/No-Go Dashboard\nmatplotlib 3-panel chart]
-
+```
 
 ## Prerequisites
 
