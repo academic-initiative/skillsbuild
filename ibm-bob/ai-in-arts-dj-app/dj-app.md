@@ -27,7 +27,7 @@ As projects grow in complexity, teams often move from vibe coding to spec-driven
 
 Spec-driven development is a more structured approach where requirements, constraints, and design details are clearly defined upfront. AI (or developers) then implement against those specifications, resulting in more reliable, maintainable systems. For this reason, this lab uses a specification document written by a developer with the assitance of AI.
 
-For more information, see [Spec-driven Development with IBM Bob](https://heidloff.net/article/spec-driven-development-ibm-bob/).
+For more information, see [Spec-driven Development with IBM Bob](https://heidloff.net/article/spec-driven-development-ibm-bob/). **Tip:** Right-click the link to open it in a new tab.
 
 ## Estimated time
 
@@ -65,7 +65,7 @@ The `dj-app` is a pre-built starter project that includes a basic DJ web applica
 Follow these steps to create a directory and open that directory in Bob:
 
 1. Choose a folder location for the lab work.
-1. Download the [dj-app.zip](dj-app.zip) from the IBM SkillsBuild GitHub repository to the folder you chose in step 1.
+1. Download the [dj-app.zip](dj-app.zip) from the IBM SkillsBuild GitHub repository to the folder you chose in step 1. **Tip:** Right-click the link to open it in a new tab.
 1. In IBM Bob, verify whether the terminal panel is visible. If you don't see a terminal panel, click **Terminal > New Terminal**.
 1. Use the `cd` command in the terminal panel to move into that folder.
 1. Execute the following commands to create the directory and unzip the repository.
