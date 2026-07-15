@@ -1,0 +1,25 @@
+{
+  "name": "deckflow-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Browser-only teaching variant of DeckFlow — a DJ mixer built on Web Audio + Elementary Audio (WASM)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@elemaudio/core": "^4.0.3",
+    "@elemaudio/web-renderer": "^4.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.4.5",
+    "vite": "^5.4.21"
+  }
+}

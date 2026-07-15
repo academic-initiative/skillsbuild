@@ -1,0 +1,330 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+  --bg: #14161c;
+  --panel: #1e222c;
+  --accent: #4cc2ff;
+  --text: #e6e8ee;
+  --muted: #8b93a7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.75rem 1rem 1rem;
+}
+
+/* Waveforms fill the available height — they're the focus. */
+.decks {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid #2b303d;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+code {
+  background: #11131a;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #0a0c10;
+  transition: filter 0.15s ease;
+}
+
+.btn:hover {
+  filter: brightness(1.1);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.btn.start {
+  background: var(--accent);
+}
+
+.btn.stop {
+  background: #ff6b6b;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid #2b303d;
+  padding: 0.45rem 0.9rem;
+  font-weight: 500;
+}
+
+.deck {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--panel);
+  border: 1px solid #2b303d;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+}
+
+.deck-head {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.4rem;
+}
+
+.deck-label {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin-right: auto;
+}
+
+.track-name {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.waveform-wrap {
+  flex: 1;
+  min-height: 0;
+}
+
+.waveform {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #11131a;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Console row: DeckControls A | Mixer | DeckControls B */
+.console {
+  display: flex;
+  align-items: stretch;
+  gap: 1.25rem;
+  margin-top: 0.6rem;
+  padding: 1rem 1.25rem;
+  background: var(--panel);
+  border: 1px solid #2b303d;
+  border-radius: 12px;
+}
+
+.deck-controls {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.eq-group {
+  display: flex;
+  gap: 0.9rem;
+}
+
+/* Knob */
+.knob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  user-select: none;
+}
+
+.knob-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.knob-body {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #11131a;
+  border: 2px solid #2b303d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: ns-resize;
+}
+
+.knob-dial {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--panel);
+  display: flex;
+  justify-content: center;
+}
+
+.knob-tick {
+  width: 3px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--accent);
+  margin-top: 3px;
+}
+
+.knob-value {
+  font-size: 9px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fader + meter */
+.fader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.fader-body {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 110px;
+}
+
+.fader-input {
+  writing-mode: vertical-lr;
+  direction: rtl;
+  width: 24px;
+  height: 100px;
+  accent-color: var(--accent);
+  cursor: ns-resize;
+}
+
+.meter {
+  width: 6px;
+  height: 100px;
+  background: #11131a;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+
+.meter-fill {
+  width: 100%;
+  background: linear-gradient(to top, #4caf50, #ffcc33 75%, #ff6b6b);
+  transition: height 0.05s linear;
+}
+
+.transport {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Mixer (master + crossfader) — center column of the console */
+.mixer {
+  flex: 0 0 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 0 1.25rem;
+  border-left: 1px solid #2b303d;
+  border-right: 1px solid #2b303d;
+}
+
+.xfader {
+  width: 100%;
+}
+
+.xfader-ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.xfader-input {
+  width: 100%;
+  accent-color: var(--accent);
+  cursor: ew-resize;
+}
+
+.time {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9rem;
+}
+
+.status {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.error {
+  color: #ff8585;
+  font-family: ui-monospace, monospace;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+}
