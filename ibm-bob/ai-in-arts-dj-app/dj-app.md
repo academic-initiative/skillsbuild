@@ -1,4 +1,4 @@
-# Build a DJ Application with IBM Bob
+![Build a DJ Application with IBM Bob](images/dj-app-title.png)
 
 ## Lab overview
 

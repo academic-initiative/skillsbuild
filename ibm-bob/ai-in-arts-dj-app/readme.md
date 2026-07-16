@@ -1,4 +1,4 @@
-# Overview
+# Overview of Build a DJ Application with IBM Bob Lab
 
 This lab starts with a basic DeckFlow web application, a two-deck DJ mixer built on Web Audio and Elementary Audio (running as WASM in an AudioWorklet). In this lab, you use IBM Bob to add new features to the application based on a specification document.
 
