@@ -25,6 +25,8 @@ Vibe coding is powerful for speed and creativity, but its weaknesses, such as po
 
 As projects grow in complexity, teams often move from vibe coding to spec-driven development, shifting from loosely defined prompts to clear, detailed specifications that guide both humans and AI toward better outcomes.
 
+![Vibe coding to spec driven development](images/ibm-vibe-to-spec.gif)
+
 Spec-driven development is a more structured approach where requirements, constraints, and design details are clearly defined upfront. AI (or developers) then implement against those specifications, resulting in more reliable, maintainable systems. For this reason, this lab uses a specification document written by a developer with the assitance of AI.
 
 For more information, see [Spec-driven Development with IBM Bob](https://heidloff.net/article/spec-driven-development-ibm-bob/). **Tip:** Right-click the link to open it in a new tab.
@@ -324,7 +326,7 @@ The following image shows the visual markers feature implementation.
 
 ## Task 6: Revisit the implementation plan
 
-Follow these steps to use the grill-me skill in Bob's Advanced mode to revisit the implementation plan to make sure that it meets your needs:
+Follow these steps to use the grill-me skill to revisit the implementation plan to make sure that it meets your needs:
 
 1. Click **New task**.
 
