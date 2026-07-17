@@ -107,9 +107,7 @@ Follow these steps to use Bob's Ask mode to explore the existing code base:
 
 1. Click **New task**.
 
-1. Switch to **Ask** mode.
-
-1. Copy and paste the following prompt:
+1. In *Ask* mode, copy and paste the following prompt:
 
     ```
     Explore the codebase for this application.
