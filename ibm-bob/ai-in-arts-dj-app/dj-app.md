@@ -145,6 +145,8 @@ Follow these steps to use Bob's Plan mode to create an implementation plan:
     Then read the spec.md file to create a implementation plan for phase 4.
     The app is currently in the phase 3 stage.
     The implementation plan should add the phase 4 features to the existing phase 3 app.
+    Create a high-level overview first, then detailed breakdowns for each feature (tempo, loops, cue, markers).
+    Save the plan as implementation-plan.md in markdown format.
     ```
 
 1. To confirm permission to read the files, click **Approve once** when prompted by Bob.
@@ -156,16 +158,6 @@ Follow these steps to use Bob's Plan mode to create an implementation plan:
    - Cue point
    - Loop functionality
    - Visual markers
-   
-1. Copy and paste the following prompt:
-
-    ```
-    Create a high-level overview first, then detailed breakdowns for each feature (tempo, loops, cue, markers).
-    Save the plan as implementation-plan.md in markdown format.
-    ```
-    
-1. Review the ToDo list, and then click **Approve once** when prompted by Bob.
-
 
 [Back to the top](#top)
 
