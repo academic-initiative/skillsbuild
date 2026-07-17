@@ -41,7 +41,7 @@ For more information, see [Spec-driven Development with IBM Bob](https://heidlof
 
 **Tip:** Right-click the following link, and open the page in a new tab.
 
-Complete the prerequisite tasks of [Get started with IBM Bob](../ai-in-sports/get-started-with-ibm-bob.md)
+Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports/get-started-with-ibm-bob.md)
 
 ***
 
