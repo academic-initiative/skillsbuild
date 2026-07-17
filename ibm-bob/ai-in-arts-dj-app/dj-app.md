@@ -60,9 +60,9 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 
 <a name="task01"></a>
 
-## Task 1: Clone and open the starter project
+## Task 1: Download and open the starter project
 
-The `dj-app` is a pre-built starter project that includes a basic DJ web application. Follow these steps to clone the repository as a starting point for the project:
+The `dj-app` is a pre-built starter project that includes a basic DJ web application. Follow these steps to download and open the starting project:
 
 Follow these steps to create a directory and open that directory in Bob:
 
@@ -105,8 +105,6 @@ Follow these steps to create a directory and open that directory in Bob:
 
 Follow these steps to use Bob's Ask mode to explore the existing code base:
 
-1. Click **New task**.
-
 1. In *Ask* mode, copy and paste the following prompt:
 
     ```
@@ -131,8 +129,6 @@ Follow these steps to use Bob's Ask mode to explore the existing code base:
 ## Task 3: Create an implementation plan
 
 Follow these steps to use Bob's Plan mode to create an implementation plan:
-
-1. Click **New task**.
 
 1. Switch to **Plan** mode.
 
