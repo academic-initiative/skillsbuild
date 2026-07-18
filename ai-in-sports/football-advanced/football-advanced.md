@@ -21,7 +21,6 @@ After completing this lab, you should be able to:
 - Add to an existing interactive application that displays player data in a user-friendly way.
 - Practice prompting to elicit the quality responses.
 
-
 ***
 
 ## About this lab
@@ -386,19 +385,16 @@ The following image shows the application with feature 3 implemented:
 
 ## Summary
 
-In this lab, you used IBM Bob to add to an existing web application that displays player information in an easy-to-understand format. You'll work with player data and guide IBM Bob using simple instructions to build different parts of your application, organize the data, and create helpful summaries.
+In this lab, you used IBM Bob to add to an existing web application that displays player information in an easy-to-understand format. You worked with player data and guided IBM Bob using simple instructions to build different parts of your application, organize the data, and create helpful summaries.
 
 ### What you learned
 
-**Detailed instructions lead to better results.** When you give Bob specific requirements—like exact player information to display, precise field measurements, and clear layout instructions—you consistently get more accurate results that match what you envisioned.
+After completing this lab, you know how to:
 
-**Providing context improves quality.** Telling Bob about your available data (which player statistics exist, how to handle missing information, what components to use) helps Bob create better applications with fewer errors and revisions.
-
-**AI summaries should stick to the facts.** Player summaries that only use actual data from your dataset are more reliable and trustworthy than AI-generated content that might include made-up information. Always review what AI creates to ensure accuracy.
-
-**Complex designs need precise specifications.** Building detailed visual elements like the football pitch requires exact measurements, positioning details, and styling instructions to achieve professional-looking results.
-
-**Multiple pages improve user experience.** Organizing your application into separate pages (like Player Browser and Formation Board) with clear navigation makes it easier to use and more professional.
+- Use IBM Bob to create and improve parts of your application using simple instructions.
+- Write clear prompts to get the results you want.
+- Add to an existing interactive application that displays player data in a user-friendly way.
+- Practice prompting to elicit the quality responses.
 
 ***
 
