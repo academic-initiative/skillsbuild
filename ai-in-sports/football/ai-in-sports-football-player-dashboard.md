@@ -160,7 +160,7 @@ The `template-carbon-react` is a pre-built starter project that includes everyth
 
 1. In IBM Bob, verify if the terminal panel is visible. If you don't see a terminal panel, click **Terminal > New Terminal**.
 
-2. In the terminal, copy and paste these commands to clone the starter project and open it:
+2. In the terminal, change the directory where you want to clone the repository, and then copy and paste these commands to clone the starter project and open it:
 
    ```bash
    git clone https://github.com/IBM/template-carbon-react

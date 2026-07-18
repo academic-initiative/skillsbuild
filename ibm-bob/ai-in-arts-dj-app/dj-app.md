@@ -47,7 +47,7 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 
 ## Contents
 
-- [Task 1: Clone and open the starter project](#task01)
+- [Task 1: Download and open the starter project](#task01)
 - [Task 2: Explore the codebase](#task02)
 - [Task 3: Create an implementation plan](#task03)
 - [Task 4: Explore the starting application](#task04)
@@ -83,7 +83,6 @@ Follow these steps to create a directory and open that directory in Bob:
    1. Click **Open**.
 
 3. Review the project structure.
-
 
 1. Verify that you are in *Ask* mode.
 
