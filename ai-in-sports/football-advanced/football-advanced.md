@@ -79,7 +79,7 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 ## Contents
 
 - [Task 1: Set up the environment](#task01)
-- [Task 2: Download and open the starter project](#task02)
+- [Task 2: Set up the project](#task02)
 - [Task 3: Explore the codebase](#task03)
 - [Task 4: Explore the starting application](#task04)
 - [Task 5: Click a player to see their details](#task05)
@@ -101,7 +101,7 @@ IBM Bob has different modes for different tasks. For this lab, you'll use **Agen
 1. Look for the Bob chat side panel.
 2. Select **Agent** mode.
 
-   ![IBM Bob panel](images/bob-panel.png)
+   <img src="images/bob-panel.png" alt="Modes panel" width="35%">
 
 You're now ready to start building with Bob!
 
@@ -132,7 +132,7 @@ Don't worry if you don't have these installed yet - IBM Bob will help you check 
    Note: On macOS, if tools like Homebrew are installed but not found in the default shell, try using interactive shell mode (e.g., `zsh -i -c 'command'`) to load the full environment profile.
    ```
 
-   ![Bob Prompt One](./images/bob-prompt-1.png)
+   ![Bob Prompt One](../football//images/bob-prompt-1.png)
 
 3. Follow Bob's guidance to verify or install the required tools.
 
@@ -142,7 +142,11 @@ Don't worry if you don't have these installed yet - IBM Bob will help you check 
 
 <a name="task02"></a>
 
-## Task 2: Download and open the starter project
+## Task 2: Set up the project
+
+Follow these steps to download and open the starter project, and then obtain your API key to access the dataset.
+
+### Task 2a: Download and open the starter project
 
 The `football-player-dashboard` is a pre-built starter project that includes a basic DJ web application. Follow these steps to download and open the starting project:
 
@@ -152,22 +156,10 @@ Follow these steps to create a directory and open that directory in Bob:
 1. Download the [football-player-dashboard.zip](football-player-dashboard.zip) from the IBM SkillsBuild GitHub repository to the folder you chose in step 1. **Tip:** Right-click the link to open it in a new tab.
 1. In IBM Bob, verify whether the terminal panel is visible. If you don't see a terminal panel, click **Terminal > New Terminal**.
 1. Use the `cd` command in the terminal panel to move into that folder.
-1. Execute the following commands to create the directory and unzip the repository.
-
-   **MacOS and Linux**
+1. Execute the following command to unzip the application files.
    
    ```
-   mkdir football-player-dashboard
-   cd football-player-dashboard
-   bsdtar --strip-components=1 -xvf ../football-player-dashboard.zip
-   ```
-
-   **Windows**
-   
-   ```
-   mkdir football-player-dashboard
-   cd football-player-dashboard
-   tar --strip-components=1 -xvf ../football-player-dashboard.zip
+   unzip football-player-dashboard.zip
    ```
 
 1. Open the `football-player-dashboard` folder:
@@ -179,13 +171,26 @@ Follow these steps to create a directory and open that directory in Bob:
 
 1. Verify that you are in *Ask* mode.
 
-   <img src="images/bob-panel.png" alt="Modes panel" width="35%">
-
 1. Copy and paste the following prompt to Bob and review the response:
     ```
     Hey Bob, What's my current working directory?
     ```
 1. Verify that the working folder is correct.
+
+#### Step 2b: Obtain your Football API key
+
+An API key is like a password that lets your application access the player data from API-Football.
+
+**Tip:** Right-click the following link, and open the page in a new tab.
+
+1. Visit [API-Football](https://www.api-football.com/) and create a free account.
+2. After signing in, clik the **Account** icon ![Account icon](images/api-football-account.svg "Account icon").
+3. Click **My Access**.
+4. At the top of the page, next to *API key*, hover over the blurred API key.
+5. Copy this API key.
+1. In Bob, edit the `.env` file, replace `your_api_key_here` with the actual API key you copied from API-Football in Step 2a, and save the file.
+
+![API Key Location](../football/data_collect/data/images/three.png)
 
 [Back to the top](#top)
 
