@@ -404,5 +404,3 @@ After completing this lab, you know how to:
 
 - [IBM Bob documentation](https://bob.ibm.com/docs)
 - [API-Football documentation](https://www.api-football.com/documentation-v3)
-- [IBM Carbon Design System](https://carbondesignsystem.com/)
-- [React documentation](https://react.dev)
