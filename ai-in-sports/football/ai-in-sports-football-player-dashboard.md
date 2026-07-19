@@ -114,7 +114,7 @@ In this task, you clone the starter project, install dependencies, and confirm t
 
 ### Task 1a: Activate Bob's Agent mode
 
-IBM Bob has different modes for different tasks. For this lab, you'll use **Agent** mode, which helps you write and modify code.
+IBM Bob has different modes for different tasks. Follow these steps to use *Agent* mode, which helps you write and modify code.
 
 1. Look for the Bob chat side panel.
 2. Select **Agent** mode.
@@ -126,11 +126,14 @@ You're now ready to start building with Bob!
 ### Task 1b: Install prerequisites with Bob's help
 
 Before you can build the application, you need a few tools installed on your computer:
+
 - **Node.js** - A program that lets you run JavaScript code on your computer (not just in a web browser)
 - **Yarn** - A tool that helps download and manage the code libraries your application needs
 - **Git** - A tool for downloading code from the internet and tracking changes to your files
 
 Don't worry if you don't have these installed yet - IBM Bob will help you check and install them!
+
+Follow these steps to install the prerequisites:
 
 2. In Bob's chat panel, copy and paste the following prompt:
 
@@ -157,6 +160,8 @@ Don't worry if you don't have these installed yet - IBM Bob will help you check 
 ### Task 1c: Clone and open the starter project
 
 The `template-carbon-react` is a pre-built starter project that includes everything you need to create a professional-looking web application. It comes with IBM's Carbon Design System, which provides ready-to-use buttons, menus, forms, and other visual elements that look polished and work well together. Think of it as a template that saves you from designing everything from scratch.
+
+Follow these steps to clone and open the start project:
 
 1. In IBM Bob, verify if the terminal panel is visible. If you don't see a terminal panel, click **Terminal > New Terminal**.
 
@@ -190,6 +195,8 @@ The `template-carbon-react` is a pre-built starter project that includes everyth
 **Note:** You'll create additional folders like `data/` and `scripts/` as you progress through the lab.
 
 ### Task 1d: Install dependencies and start the app
+
+Follow these steps to install yarn and start the application:
 
 1. Copy and paste these commands in Bob's terminal:
 
@@ -230,7 +237,7 @@ This option gets the latest player information directly from the API-Football se
 
 #### Step 2a: Get your API key
 
-An API key is like a password that lets your application access the player data from API-Football.
+An API key is like a password that lets your application access the player data from API-Football. Follow these steps to create an account and obtain an API key:
 
 **Tip:** Right-click the following link, and open the page in a new tab.
 
@@ -244,7 +251,7 @@ An API key is like a password that lets your application access the player data 
 
 #### Step 2b: Ask Bob to set up the environment
 
-Before using your API key in the application, you need to store it securely. Here's what you'll set up:
+Before using your API key in the application, you need to store it securely. Follow these steps to set up the following files:
 
 - **`.env` file** - A special file that stores sensitive information (like your API key) separately from your code
 - **`.gitignore`** - A file that tells Git which files to ignore when sharing code, so your API key stays private
@@ -280,7 +287,7 @@ Before using your API key in the application, you need to store it securely. Her
 
 #### Step 2c: Download player data from API-Football
 
-Now you'll create a script that automatically downloads player information from API-Football and saves it to your project. Think of this as a one-time download that gets all the player data you need.
+Now you'll create a script that automatically downloads player information from API-Football and saves it to your project. Think of this as a one-time download that gets all the player data you need. Follow these steps to download the player data:
 
 **About API-Football:**
 API-Football (https://v3.football.api-sports.io) is a service that provides comprehensive football/soccer data from leagues around the world. you'll use their player information endpoint, which gives us detailed data including:
@@ -390,7 +397,7 @@ In this task, you simplify the template app and create a dropdown component that
 
 ### Task 3a: Clean up the template
 
-The starter template you downloaded includes many features you don't need for this lab - like a complex navigation menu, extra pages, and styling files. Let's remove these unnecessary parts to create a clean, simple starting point for our player dashboard.
+The starter template you downloaded includes many features you don't need for this lab - like a complex navigation menu, extra pages, and styling files. Follow these steps to remove these unnecessary parts to create a clean, simple starting point for our player dashboard:
 
 **What Bob will do:**
 - Remove extra folders and files that add complexity
@@ -427,7 +434,7 @@ The starter template you downloaded includes many features you don't need for th
 
 ### Task 3b: Add a player selector dropdown
 
-Now let's add the first interactive feature to your application - a dropdown menu that lets you select a player from the list.
+Follow these steps to add the first interactive feature to your application - a dropdown menu that lets you select a player from the list:
 
 **What you're building:**
 - A dropdown menu showing all player names
@@ -521,7 +528,7 @@ After Bob resolves these issues, refresh your browser and test the player select
 
 ## Task 4: Display player statistics
 
-Now that you can select a player, let's display their detailed information in a nice card format.
+Now that you can select a player, follow these steps to display their detailed information in a nice card format.
 
 **What you're building:**
 - A player information card that shows when you select a player
@@ -601,7 +608,7 @@ This is the most important task because it shows you why controlling your data s
 
 ### Task 5a: Create a summary using Wikipedia
 
-First, let's create a feature that fetches player information from Wikipedia. This will show you what happens when you use external data sources.
+First, follow these steps to create a feature that fetches player information from Wikipedia. This will show you what happens when you use external data sources.
 
 1. Copy and paste this instruction into Bob's chat window:
 
@@ -693,6 +700,8 @@ Your dataset contains **only 8 fields**:
 ---
 
 ### Task 5c: Convert to grounded summaries
+
+Follow these steps to implement grounding:
 
 1. Now fix the feature to use only your dataset. Tell Bob:
 
@@ -806,9 +815,11 @@ This lesson applies to any system where accuracy matters:
 
 ![Formation Example](./images/formation-example.png)
 
-### Task 6a: Create the Formation Board display
+### Task 6a: Create the formation board display
 
 **What this does:** This creates the visual football field display that shows player photos arranged in a football formation (forwards, midfielders, defenders, and goalkeeper).
+
+Follow these steps to create a formation board display:
 
 1. Copy and paste the following instructions for Bob:
 
@@ -836,6 +847,8 @@ This lesson applies to any system where accuracy matters:
 
 **What this does:** This creates a helper function that randomly picks 11 players from the full list of available players.
 
+Follow these steps to create a team generator helper:
+
 1. Copy and paste the following instructions for Bob:
 
    ```text
@@ -854,6 +867,8 @@ This lesson applies to any system where accuracy matters:
 ### Task 6c: Add navigation and formation page
 
 **What this does:** This adds a navigation menu at the top of the application and creates a second page for the team formation visualizer, allowing users to switch between viewing individual players and viewing team formations.
+
+Follow these steps to add navigation and a formation page:
 
 1. Copy and paste the following instructions for Bob:
 
@@ -902,6 +917,8 @@ The field will look basic at this stage - you'll make it look professional in th
 
 **What this does:** This upgrades the football field to look more realistic by adding professional pitch markings like you'd see on a real football field, including penalty areas, corner arcs, and goal indicators.
 
+Follow these steps to enhance the football field with professional pitch markings:
+
 1. Copy and paste the following instructions for Bob:
 
    ```text
@@ -946,7 +963,7 @@ The field will look basic at this stage - you'll make it look professional in th
 
 **What this does:** This verifies that everything works correctly and looks professional.
 
-**Testing steps:**
+Follow these steps to test the enhanced formation visualizer:
 
 1. Save all your files.
 1. Refresh your browser if the application doesn't restart automatically.

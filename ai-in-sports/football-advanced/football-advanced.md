@@ -143,13 +143,13 @@ Don't worry if you don't have these installed yet - IBM Bob will help you check 
 
 ## Task 2: Set up the project
 
+The `football-player-dashboard` starter project is based on the [template-carbon-react](https://github.com/IBM/template-carbon-react) pre-built starter project that includes everything you need to create a professional-looking web application. It comes with IBM's Carbon Design System, which provides ready-to-use buttons, menus, forms, and other visual elements that look polished and work well together.
+
 Follow these steps to download and open the starter project, and then obtain your API key to access the dataset.
 
 ### Task 2a: Download and open the starter project
 
-The `football-player-dashboard` is a pre-built starter project that includes a basic DJ web application. Follow these steps to download and open the starting project:
-
-Follow these steps to create a directory and open that directory in Bob:
+Follow these steps to download and open the starter project:
 
 1. Choose a folder location for the lab work.
 1. Download the [football-player-dashboard.zip](football-player-dashboard.zip) from the IBM SkillsBuild GitHub repository to the folder you chose in step 1. **Tip:** Right-click the link to open it in a new tab.
@@ -178,7 +178,7 @@ Follow these steps to create a directory and open that directory in Bob:
 
 #### Step 2b: Obtain your Football API key
 
-An API key is like a password that lets your application access the player data from API-Football.
+An API key is like a password that lets your application access the player data from API-Football. Follow these steps to create an account and obtain an API key:
 
 **Tip:** Right-click the following link, and open the page in a new tab.
 
@@ -268,7 +268,7 @@ Follow these steps to explore the initial web application:
 
 ## Task 5: Click a player to see their details
 
-The first feature is fairly straight-forward, so prompt Bob to implement the feature:
+The first feature is fairly straight-forward, so follow these steps to prompt Bob to implement the feature:
 
 1. Copy and paste the following prompt:
 
@@ -295,7 +295,7 @@ The following image shows the application with feature 1 implemented:
 
 ## Task 6: Build realistic team formations
 
-Bob can accomplish buidling realistic team formations using multiple approaches. Follow these steps to prompt Bob for recommendations:
+Bob can accomplish buidling realistic team formations using multiple approaches. Follow these steps to prompt Bob for recommendations before implementing the feature:
 
 1. Copy and paste the following prompt:
 
@@ -345,6 +345,8 @@ The following image shows the application with feature 2 implemented:
 
 ## Task 7: Switch between different formations
 
+Follow these steps to add a dropdown list for the user to select a formation before generating their dream team: 
+ 
 1. Copy and paste the following prompt:
 
    ```
