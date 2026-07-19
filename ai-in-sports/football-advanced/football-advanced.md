@@ -183,7 +183,7 @@ An API key is like a password that lets your application access the player data 
 **Tip:** Right-click the following link, and open the page in a new tab.
 
 1. Visit [API-Football](https://www.api-football.com/) and create a free account.
-2. After signing in, clik the **Account** icon ![Account icon](images/api-football-account.svg "Account icon").
+2. After signing in, clik the **Account** icon ![Account icon](../football/images/api-football-account.svg "Account icon").
 3. Click **My Access**.
 4. At the top of the page, next to *API key*, hover over the blurred API key.
 5. Copy this API key.
