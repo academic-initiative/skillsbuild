@@ -143,7 +143,7 @@ Don't worry if you don't have these installed yet - IBM Bob will help you check 
 
 ## Task 2: Set up the project
 
-The `football-player-dashboard` starter project is based on the [template-carbon-react](https://github.com/IBM/template-carbon-react) pre-built starter project that includes everything you need to create a professional-looking web application. It comes with IBM's Carbon Design System, which provides ready-to-use buttons, menus, forms, and other visual elements that look polished and work well together.
+The `football-player-dashboard` starter project is based on the [template-carbon-react](https://github.com/IBM/template-carbon-react) pre-built starter project, and modified to create a professional-looking football player dashboard  application. It includes IBM's Carbon Design System, which provides ready-to-use buttons, menus, forms, and other visual elements that look polished and work well together.
 
 Follow these steps to download and open the starter project, and then obtain your API key to access the dataset.
 
@@ -298,7 +298,7 @@ The following image shows the application with feature 1 implemented:
 
 ## Task 6: Build realistic team formations
 
-Bob can accomplish buidling realistic team formations using multiple approaches. Follow these steps to prompt Bob for recommendations before implementing the feature:
+Bob can accomplish building realistic team formations using multiple approaches. Follow these steps to prompt Bob for recommendations before implementing the feature:
 
 1. Copy and paste the following prompt:
 
@@ -313,10 +313,11 @@ Bob can accomplish buidling realistic team formations using multiple approaches.
 2. Copy and paste the following prompt:
 
    ```
-   How would you make the team generator smarter by selecting players based on their actual positions instead of selecting players randomly? Pleasea provide multiple approaches, explain each approach, and let me select the best approach.
+   How would you make the team generator smarter by selecting players based on their actual positions instead of selecting players randomly?
+   Please provide multiple approaches, explain each approach, and let me select the best approach.
    ```
 
-   Review Bob's response which might look similar to the following image:
+   Review Bob's suggested approaches, and select an approach. This list might look similar to the following image:
 
    ![Approaches](images/approaches.png)
 
