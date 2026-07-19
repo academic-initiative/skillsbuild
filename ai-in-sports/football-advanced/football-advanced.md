@@ -308,7 +308,7 @@ Bob can accomplish building realistic team formations using multiple approaches.
 
    Review Bob's response which might look similar to the following image:
 
-   ![Realistic formations](images/realistic-formations.png)
+   <img src="images/realistic-formations.png" alt="Realistic formations" width="75%">
 
 2. Copy and paste the following prompt:
 
@@ -324,8 +324,8 @@ Bob can accomplish building realistic team formations using multiple approaches.
 4. Copy and paste the following prompt:
 
    ```
-   For feature 2, implement the selected approach with a twist: 
-   - Randomly select from the top 3-5 players in each position.
+   For feature 2, implement the recommended approach with a twist: 
+   - Randomly select from the top 3-5 ranked players in each position.
    - Also change the Generate Random Team to Generate Dream Team on the formation board.
    - Provide a summary of what you did, and update the ToDo list.
 
@@ -382,6 +382,30 @@ Follow these steps to add a dropdown list for the user to select a formation bef
 The following image shows the application with feature 3 implemented:
 
 ![Formation selector](images/drop-down-formations.png)
+
+[Back to the top](#top)
+
+## Task 6: Revisit the project plan
+
+Follow these steps to use the grill_me skill to revisit the project plan to make sure that it meets your needs:
+
+1. Click **New task**.
+
+1. Copy and paste the following prompt:
+
+    ```
+    I'd like you to grill me about this application.
+    ```
+
+1. Click **Approve once** when prompted by Bob to confirm permission to read, edit, and create files, and approve the proposed ToDo list.
+
+1. Read and respond to the questions from Bob to revisit the project plan to make sure that meets your needs. Bob might find anomalies or recommend modifications, and prompt you to choose from options.
+
+1. Review the results of the grilling session.
+
+The following image shows an example of the results of the grilling session.
+
+![Grilling complete](images/grilling.png)
 
 [Back to the top](#top)
 

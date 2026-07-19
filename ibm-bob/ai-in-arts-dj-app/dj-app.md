@@ -311,7 +311,7 @@ The following image shows the visual markers feature implementation.
 
 ## Task 6: Revisit the implementation plan
 
-Follow these steps to use the grill-me skill to revisit the implementation plan to make sure that it meets your needs:
+Follow these steps to use the grill_me skill to revisit the implementation plan to make sure that it meets your needs:
 
 1. Click **New task**.
 
