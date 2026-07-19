@@ -279,9 +279,12 @@ The first feature is fairly straight-forward, so follow these steps to prompt Bo
 
 1. Review the results and updated ToDo list.
 
-1. Test the application:
-   1. Generate a random team.
-   1. Select different players to see their statistics.
+**Test the application**
+
+1. Refresh your browser if the application doesn't restart automatically.
+1. In the header, click **Team Formation**.
+1. On the *Team Formation* page, click the **Generate Random Team** button. Basic football field displays with 11 player photos arranged in formation.
+1. Select different players to see their statistics.
 
 The following image shows the application with feature 1 implemented:
 
@@ -330,7 +333,7 @@ Bob can accomplish buidling realistic team formations using multiple approaches.
 1. Review the results and updated ToDo list.
 
 1. Test the application:
-   1. Generate a dream team.
+   1. On the *Team Formation* page, click the **Generate Dream Team** button. Basic football field displays with 11 player photos arranged in formation.
    1. Select different players to see their statistics.
 
 The following image shows the application with feature 2 implemented:
@@ -346,7 +349,7 @@ The following image shows the application with feature 2 implemented:
 ## Task 7: Switch between different formations
 
 Follow these steps to add a dropdown list for the user to select a formation before generating their dream team: 
- 
+
 1. Copy and paste the following prompt:
 
    ```
@@ -369,10 +372,10 @@ Follow these steps to add a dropdown list for the user to select a formation bef
 1. Review the results and updated ToDo list.
 
 1. Test the application:
-   1. Select a formation.
-   1. Generate a dream team.
+   1. On the *Team Formation* page, select a formation from the dropdown list.
+   1. Click the **Generate Dream Team** button.
    1. Select different players to see their statistics.
-
+   
 1. Optional: Prompt Bob to modify any of the features or the visual appearance of the application.
 
 The following image shows the application with feature 3 implemented:
