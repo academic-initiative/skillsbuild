@@ -89,6 +89,18 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 
 ***
 
+# Preview the tutorial
+
+Watch the following video to see a preview of the steps in this tutorial.
+
+**Note:** Some user interface elements in the video might look different from your IBM Bob environment.
+
+**Tip:** Right-click the following thumbnail image, and open the video in a new tab.
+
+<a href="https://video.ibm.com/embed/channel/23669513/video/football-advanced">![Video preview of tutorial](images/video-thumbnail-football-advanced.jpg "Video preview of tutorial")</a>
+
+***
+
 ## Task 1: Set up your environment
 
 In this task, you clone the starter project, install dependencies, and confirm that the development server runs correctly.
