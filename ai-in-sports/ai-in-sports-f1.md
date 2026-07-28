@@ -2,8 +2,7 @@
 
 # Overview
 
-This lab demonstrates the capabilities of predictive AI. Predictive AI involves using statistical analysis and machinelearning(ML) to identify patterns, anticipate behaviors, and forecast upcoming events. In this case, the lab shows you how to predict the results of a Formula 1 World 
-Championship.
+This lab demonstrates the capabilities of predictive AI. Predictive AI involves using statistical analysis and machinelearning(ML) to identify patterns, anticipate behaviors, and forecast upcoming events. In this case, the lab shows you how to predict the results of a Formula 1 World Championship.
 
 # Learning objectives
 
