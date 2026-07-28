@@ -302,7 +302,7 @@ Once the animator has selected all of the options, the application needs a butto
    Make sure every placement is rendered independently in the exported animation — 
    do not deduplicate or skip placements just because they share the same source sprite.
 
-   Once rendered, let the user download the result as a `.gif` file directly from the app.
+   Once rendered, show a preview of the rendered animation and let the user download the result as a `.gif` file directly from the app.
    ```
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
