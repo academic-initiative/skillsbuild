@@ -60,13 +60,15 @@ Complete the prerequisite tasks of [Get started with IBM Bob](get-started-with-i
 - [Task 3: Add a canvas & sprite upload](#task03)
 - [Task 4: Add a keyframe and placement editor](#task04)
 - [Task 5: Handle multi-frame sprites](#task05)
-- [Task 6: Add scene effects)](#task06)
+- [Task 6: Add scene effects](#task06)
 - [Task 7: Add looping option](#task07)
 - [Task 8: Add buttons for animation rendering & export](#task08)
 - [Summary](#summary)
 - [Additional resources](#additional-resources)
 
 ***
+
+<a name="task01"></a>
 
 ## Task 1: Set up the environment
 
@@ -122,6 +124,8 @@ Follow these steps to set up the environment:
 
 ***
 
+<a name="task02"></a>
+
 ## Task 2: Create the starter applicaton
 
 Follow these steps to create a Streamlit application:
@@ -154,6 +158,8 @@ Follow these steps to create a Streamlit application:
 
 ***
 
+<a name="task03"></a>
+
 ## Task 3: Add a canvas & sprite upload
 
 The application needs the ability for teh animator to upload images as a sprite, and a canvas where the animator can place the images to animate. Follow these steps to add a canvas and a sprite upload:
@@ -177,6 +183,8 @@ The application needs the ability for teh animator to upload images as a sprite,
 [Back to the top](#top)
 
 ***
+
+<a name="task04"></a>
 
 ## Task 4: Add a keyframe and placement editor
 
@@ -211,6 +219,8 @@ The application needs a section where the animator can add keyframes and adjust 
 
 ***
 
+<a name="task05"></a>
+
 ## Task 5: Handle multi-frame sprites
 
 The application needs the ability to handle multiple phases of the animation. Follow these steps to handle multi-frame sprites:
@@ -229,6 +239,8 @@ The application needs the ability to handle multiple phases of the animation. Fo
 [Back to the top](#top)
 
 ***
+
+<a name="task06"></a>
 
 ## Task 6: Add scene effects
 
@@ -250,6 +262,8 @@ The application can benefit from some preset scene effects, such as, blur and br
 
 ***
 
+<a name="task07"></a>
+
 ## Task 7: Add looping option
 
 By default, the animation will loop continuosly, but the animator may want to have the animation stop after playing once. Follow these steps to add a looping option:
@@ -269,6 +283,8 @@ By default, the animation will loop continuosly, but the animator may want to ha
 [Back to the top](#top)
 
 ***
+
+<a name="task08"></a>
 
 ## Task 8: Add buttons for animation rendering & export
 
