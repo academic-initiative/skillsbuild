@@ -158,6 +158,11 @@ Follow these steps to create a Streamlit application:
 
 1. Open a browser, and navigate to the provided URL.
 
+The following image shows the starter application:
+
+<img src="images/starter-app.png" alt="Starter application">
+
+
 [Back to the top](#top)
 
 ***
@@ -171,13 +176,14 @@ The application needs the ability for teh animator to upload images as a sprite,
 1. Copy and paste the prompt into Bob's chat panel.
 
    ```
-   Add a sidebar to the app with a section for canvas settings — width, height, and frames per second — using sensible defaults. 
+   Add a sidebar to the app with a section for canvas settings — width, height, and frames per second — using standard high definition image defaults. 
    Store these settings so they persist as the user interacts with the app. 
    In the main area, show the canvas preview full-width but not too tall to not fit on my screen /window.
 
    Below that, add a section in the sidebar where the user can name a sprite and upload one or more image files for it.
    When they click "Add Sprite", save the sprite to memory and automatically clear the file uploader so it is empty and ready for the next upload.
    In the main area, show all uploaded sprites as small thumbnail previews with a button to remove each one.
+   Persist the uploaded sprites so the user can easily select previous sprites when starting over.
    ```
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
