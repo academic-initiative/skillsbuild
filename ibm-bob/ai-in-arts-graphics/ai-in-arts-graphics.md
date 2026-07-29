@@ -169,7 +169,7 @@ The following image shows the starter application:
 
 <a name="task03"></a>
 
-## Task 3: Add a canvas & sprite upload
+## Task 3: Add a canvas and sprite upload
 
 The application needs the ability for teh animator to upload images as a sprite, and a canvas where the animator can place the images to animate. Follow these steps to add a canvas and a sprite upload:
 
@@ -178,17 +178,22 @@ The application needs the ability for teh animator to upload images as a sprite,
    ```
    Add a sidebar to the app with a section for canvas settings — width, height, and frames per second — using standard high definition image defaults. 
    Store these settings so they persist as the user interacts with the app. 
-   In the main area, show the canvas preview full-width but not too tall to not fit on my screen /window.
+   In the main area, show the canvas preview full-width even without any sprites uploaded yet, but not too tall to not fit on my screen window.
 
-   Below that, add a section in the sidebar where the user can name a sprite and upload one or more image files for it.
-   When they click "Add Sprite", save the sprite to memory and automatically clear the file uploader so it is empty and ready for the next upload.
-   In the main area, show all uploaded sprites as small thumbnail previews with a button to remove each one.
-   Persist the uploaded sprites so the user can easily select previous sprites when starting over.
+   Below that, add a section in the sidebar where the user can name a sprite and upload one or more image files for it. The default name for the sprite should be "sprite 1", "sprite 2", "sprite 3", and so on.
+   When they click "Add Sprite", save the sprite to disk and automatically clear the file uploader so it is empty and ready for the next upload.
+   Just below the "Add Sprite" button, show all of the uploaded sprites as small thumbnail previews (64x64 pixels) with the sprite name and button icon to delete each sprite.
+
+   Each of the sections should be collapsible.
    ```
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
 
 1. Refresh the browser, and test the new feature.
+
+The following image shows the application with the canvas and sprite upload features implemented:
+
+<img src="images/canvas-sprites.png" alt="Canvas and sprites">
 
 [Back to the top](#top)
 
@@ -218,12 +223,18 @@ The application needs a section where the animator can add keyframes and adjust 
    When expanded, show editable fields for X position, Y position, rotation, crop, scale, layer order (higher numbers display on top), and a remove button. 
    The name field should also be editable inside the expanded view. When adding a new placement, 
    show a name field above the sprite picker — if left blank, default the name to the sprite's name. 
-   Draw sprites in layer order when compositing so that higher-layer sprites display on top.
+   Draw sprites in layer order when compositing so that higher-layer sprites display on top. Pay special attention to transparent images to not add a background when the sprite is placed on the canvas.
+
+   Each of the sections should be collapsible.
    ```
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
 
 1. Refresh the browser, and test the new feature.
+
+The following image shows the application with the keyframes and placement features implemented:
+
+<img src="images/keyframes-placement.png" alt="Keyframes and placement">
 
 [Back to the top](#top)
 
@@ -244,7 +255,7 @@ The application needs the ability to handle multiple phases of the animation. Fo
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
 
-1. Refresh the browser, and test the new feature.
+1. Refresh the browser. Note that this feature doesn't visually change the user interface.
 
 [Back to the top](#top)
 
@@ -262,6 +273,9 @@ The application can benefit from some preset scene effects, such as, blur and br
    Add a scene effects panel below the placement editor for the currently selected keyframe. 
    Include controls for blur, brightness, contrast, grayscale, and sepia. 
    Store the effect settings per keyframe in memory and apply them to the canvas preview at render time.
+
+   This section should be collapsible.
+
    ```
 
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
