@@ -347,7 +347,7 @@ Once the animator has selected all of the options, the application needs a butto
 
 1. After you render the animation, you can preview it in the application. Then download the animation. The following image shows an animation created using a similar application built by IBM Bob:
 
-   <img src="images/bouquet-animation.gif" alt="Bouquet animation">
+   <img src="images/bouquet-animation-02.gif" alt="Bouquet animation">
 
 1. When you are done, press `CTRL+C` in the terminal window to stop the application.
 
