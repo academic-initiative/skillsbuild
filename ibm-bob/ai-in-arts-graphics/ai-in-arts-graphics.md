@@ -282,6 +282,10 @@ The application can benefit from some preset scene effects, such as, blur and br
 
 1. Refresh the browser, and test the new feature.
 
+The following image shows the application with the scene effects features implemented:
+
+<img src="images/scene-effects.png" alt="Scene effects">
+
 [Back to the top](#top)
 
 ***
@@ -303,6 +307,10 @@ By default, the animation will loop continuosly, but the animator may want to ha
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
 
 1. Refresh the browser, and test the new feature.
+
+The following image shows the application with the looping option implemented:
+
+<img src="images/loop.png" alt="Looping option">
 
 [Back to the top](#top)
 
@@ -332,6 +340,14 @@ Once the animator has selected all of the options, the application needs a butto
 1. To confirm permission to complete the tasks, click **Approve once** when prompted by Bob, and follow the prompts.
 
 1. Refresh the browser, and test the new feature.
+
+   The following image shows the application with the keyframes and placement features implemented:
+
+   <img src="images/final-app.png" alt="Final application">
+
+1. After you render the animation, you can preview it in the application. Then download the animation. The following image shows an animation created using a similar application built by IBM Bob:
+
+   <img src="images/bouquet-animation.gif" alt="Bouquet animation">
 
 1. When you are done, press `CTRL+C` in the terminal window to stop the application.
 
