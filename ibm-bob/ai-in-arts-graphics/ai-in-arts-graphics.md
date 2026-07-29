@@ -47,7 +47,7 @@ Throughout the lab, you'll guide IBM Bob with clear instructions and specific re
 
 **Tip:** Right-click the following link, and open the page in a new tab.
 
-Complete the prerequisite tasks of [Get started with IBM Bob](get-started-with-ibm-bob.md)
+Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports/get-started-with-ibm-bob.md)
 
 ***
 
@@ -86,12 +86,16 @@ Before you can build the application, you need a following tools installed on yo
 
 Don't worry if you don't have these installed yet - IBM Bob will help you check and install them!
 
-Follow these steps to set up the environment:
+Follow these steps to set up the project environment:
 
-1. Create a folder for your project with the following name:
+1. In Bob, open the terminal window: click **Terminal > New Terminal**.
+1. Choose a folder location for the lab work.
+1. Use the `cd` command in the terminal panel to move into that folder.
+1. Create a folder for your project with the following command:
 
    ```
-   animation-studio
+   mkdir animation-studio
+   cd animation-studio
    ```
 1. Copy the images that you want to animate into the `animation-studio` folder.
 
@@ -99,9 +103,9 @@ Follow these steps to set up the environment:
 
    <img src="images/bob-panel.png" alt="Modes panel" width="35%">
 
-1. In IBM Bob, click **File > Open Folder**, select the `animation-studio` folder, and click **Open**.
+1. Click **File > Open Folder**, select the `animation-studio` folder, and click **Open**.
 
-1. Copy and paste the following prompt to ask Bob to install and verify the prerequisite environment:
+1. In the Bob side panel, copy and paste the following prompt to ask Bob to install and verify the prerequisite environment:
 
    ```text
    I need to set up a development environment for a project. 
@@ -188,7 +192,7 @@ The application needs the ability for teh animator to upload images as a sprite,
 
 ## Task 4: Add a keyframe and placement editor
 
-The application needs a section where the animator can add keyframes and adjust the placement for the animation. Follow these steps to add a keyferame editor:
+The application needs a section where the animator can add keyframes and adjust the placement for the animation. Follow these steps to add a keyferame and placement editor:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
