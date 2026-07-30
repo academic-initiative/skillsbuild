@@ -35,6 +35,8 @@ The application includes the following features:
 
 Throughout the lab, you'll guide IBM Bob with clear instructions and specific requirements. IBM Bob will help you build the application using modern web technologies without any prerequisite knowledge of coding. IBM Bob handles the technical details. You'll focus on what you want the application to do, and IBM Bob will create it for you.
 
+**Note:** Bob dynamically responds to prompts; therefore, your application may look different from the screen images shown in this lab. Prompt Bob to make additional changes based on your preferences for the features and user interface. 
+
 ***
 
 ## Estimated time
@@ -132,7 +134,7 @@ Follow these steps to set up the project environment:
 
 ## Task 2: Create the starter applicaton
 
-Follow these steps to create a Streamlit application:
+This task prompts Bob to create a Streamlit application with the specified title, background color, primary colore, and page icon. Follow these steps to create the Streamlit application:
 
 1. Decide on the following elements of your application:
    - An application title
@@ -171,7 +173,12 @@ The following image shows the starter application:
 
 ## Task 3: Add a canvas and sprite upload
 
-The application needs the ability for teh animator to upload images as a sprite, and a canvas where the animator can place the images to animate. Follow these steps to add a canvas and a sprite upload:
+This task prompts Bob to create:
+- A canvas where the animator can see the placement of the images.
+- A section for canvas settings, such as, the dimensions and frames per second.
+- A mechanism to upload the images, provide a sprite name, and persist the sprites to disk.
+
+Follow these steps to add a canvas and a sprite upload:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
@@ -203,7 +210,12 @@ The following image shows the application with the canvas and sprite upload feat
 
 ## Task 4: Add a keyframe and placement editor
 
-The application needs a section where the animator can add keyframes and adjust the placement for the animation. Follow these steps to add a keyferame and placement editor:
+This task prompts Bob to create two sections to:
+
+- Add keyframes for the animation.
+- Place the sprites in a keyframe, and adjust the position, rotation, and layer, and so on, for the keyframe.
+
+Follow these steps to add a keyferame and placement editor:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
@@ -244,7 +256,7 @@ The following image shows the application with the keyframes and placement featu
 
 ## Task 5: Handle multi-frame sprites
 
-The application needs the ability to handle multiple phases of the animation. Follow these steps to handle multi-frame sprites:
+This task prompts Bob how to handle a single sprite with multiple uploaded images. Follow these steps to handle multi-frame sprites:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
@@ -265,7 +277,7 @@ The application needs the ability to handle multiple phases of the animation. Fo
 
 ## Task 6: Add scene effects
 
-The application can benefit from some preset scene effects, such as, blur and brightness. Follow these steps to add scene effects:
+This task prompts Bob to add a scene effects section, such as, blur and brightness. Follow these steps to add scene effects:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
@@ -294,7 +306,7 @@ The following image shows the application with the scene effects features implem
 
 ## Task 7: Add looping option
 
-By default, the animation will loop continuosly, but the animator may want to have the animation stop after playing once. Follow these steps to add a looping option:
+By default, the animation will loop continuosly, but the animator may want to have the animation stop after playing once. Follow these steps to prompt Bob to add a looping option:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
@@ -320,7 +332,7 @@ The following image shows the application with the looping option implemented:
 
 ## Task 8: Add buttons for animation rendering & export
 
-Once the animator has selected all of the options, the application needs a button to render the animation and then export the animation to a GIF file. Follow these steps to add buttons for these two features:
+Once the animator has selected all of the options, the application needs a button to render the animation and then export the animation to a GIF file. Follow these steps to prompt Bob to add buttons for these two features:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
@@ -348,6 +360,8 @@ Once the animator has selected all of the options, the application needs a butto
 1. After you render the animation, you can preview it in the application. Then download the animation. The following image shows an animation created using a similar application built by IBM Bob:
 
    <img src="images/bouquet-animation-02.gif" alt="Bouquet animation">
+
+   If the movement of the images isn't smooth, prompt Bob to examine the interpolation feature.
 
 1. When you are done, press `CTRL+C` in the terminal window to stop the application.
 
