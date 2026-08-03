@@ -74,12 +74,11 @@ Follow these steps to create a directory and open that directory in Bob:
 
    ```
    mkdir dj-app
-   cd dj-app
-   unzip ../dj-app.zip
+   unzip dj-app.zip
    ```
-1. Open the `dj-app` folder:
+1. Open the `ai-in-arts-dj-app` folder:
    1. Click **File > Open Folder**.
-   1. Navigate to the `dj-app` folder.
+   1. Navigate to the `ai-in-arts-dj-app` folder.
    1. Click **Open**.
 
 3. Review the project structure.
