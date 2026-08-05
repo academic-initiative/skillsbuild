@@ -58,6 +58,18 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 
 ***
 
+# Preview the tutorial
+
+Watch the following video to see a preview of the steps in this tutorial.
+
+**Note:** Some user interface elements in the video might look different from your IBM Bob environment.
+
+**Tip:** Right-click the following thumbnail image, and open the video in a new tab.
+
+<a href="https://video.ibm.com/embed/channel/23669513/video/dj-app">![Video preview of tutorial](images/video-thumbnail-dj-app.jpg "Video preview of tutorial")</a>
+
+***
+
 <a name="task01"></a>
 
 ## Task 1: Download and open the starter project
@@ -319,7 +331,7 @@ Follow these steps to use the grill_me skill to revisit the implementation plan 
 1. Copy and paste the following prompt:
 
     ```
-    I'd like you to grill me about this project plan.
+    I'd like you to grill me about the full implementation plan for this project.
     ```
 
 1. Click **Approve once** when prompted by Bob to confirm permission to read, edit, and create files, and approve the proposed ToDo list.
