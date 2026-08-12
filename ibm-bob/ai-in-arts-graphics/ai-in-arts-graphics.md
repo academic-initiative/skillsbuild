@@ -70,6 +70,18 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 
 ***
 
+# Preview the tutorial
+
+Watch the following video to see a preview of the steps in this tutorial.
+
+**Note:** Some user interface elements in the video might look different from your IBM Bob environment.
+
+**Tip:** Right-click the following thumbnail image, and open the video in a new tab.
+
+<a href="https://video.ibm.com/embed/channel/23669513/video/animation-studio">![Video preview of tutorial](images/video-thumbnail-animation-studio.jpg "Video preview of tutorial")</a>
+
+***
+
 <a name="task01"></a>
 
 ## Task 1: Set up the environment
@@ -134,7 +146,7 @@ Follow these steps to set up the project environment:
 
 ## Task 2: Create the starter applicaton
 
-This task prompts Bob to create a Streamlit application with the specified title, background color, primary colore, and page icon. Follow these steps to create the Streamlit application:
+This task prompts Bob to create a Streamlit application with the specified title, background color, primary color, and page icon. Follow these steps to create the Streamlit application:
 
 1. Decide on the following elements of your application:
    - An application title
@@ -306,7 +318,7 @@ The following image shows the application with the scene effects features implem
 
 ## Task 7: Add looping option
 
-By default, the animation will loop continuosly, but the animator may want to have the animation stop after playing once. Follow these steps to prompt Bob to add a looping option:
+By default, the animation will loop continuously, but the animator may want to have the animation stop after playing once. Follow these steps to prompt Bob to add a looping option:
 
 1. Copy and paste the prompt into Bob's chat panel.
 
@@ -373,7 +385,7 @@ Once the animator has selected all of the options, the application needs a butto
 
 ## Summary
 
-In this lab, you will build an application that allows the user to upload images as sprites, position them on a canvas across keyframes, apply per-frame scene effects, and export the result as a `.gif`.
+In this lab, you built an application that allows the user to upload images as sprites, position them on a canvas across keyframes, apply per-frame scene effects, and export the result as a `.gif`.
 
 ### What you learned
 
