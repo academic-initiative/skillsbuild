@@ -43,9 +43,9 @@ To call the watsonx service, you need credentials. Follow these steps to create 
 
 1. In the *Project or space* drop-down list, select your sandbox project.
 
-1. Next to the *Project ID*, click the **Copy** icon ![Copy icon](images/copy.svg "Copy icon"). Save this ID to a text file to be used later.
+1. Next to the *Project ID*, select and copy the ID. Save this ID to a text file to be used later.
 
-1. Next to *watsonx.ai URL*, lick the **Copy** icon ![Copy icon](images/copy.svg "Copy icon"). Save this URL to a text file to be used later.
+1. Next to *watsonx.ai URL*, select and copy the URL. Save this URL to a text file to be used later.
 
 1. Click **Create API key**.
 
