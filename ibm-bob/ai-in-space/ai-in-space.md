@@ -39,6 +39,8 @@ After completing this lab, you will be able to:
 
 ## About the dataset
 
+**Tip:** Right-click the following link, and open the page in a new tab.
+
 This lab uses the datasets from [Kaggle dataset: NASA_space_weather_data](https://www.kaggle.com/datasets/edacelikeloglu/nasa-space-weather-data).
 
 This comprehensive dataset contains space weather events collected from NASA's DONKI (Database of Notifications, Knowledge, Information) API. It includes detailed information about solar flares, coronal mass ejections (CMEs), geomagnetic storms, and high-speed solar wind streams that occurred over the past 2 years.
