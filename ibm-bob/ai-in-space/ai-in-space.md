@@ -2,7 +2,9 @@
 
 ## About this lab
 
-What if you could help decide whether a multimillion-dollar space mission is ready for launch? In this lab, you'll build a **complete machine learning application** that predicts the probability of a space launch using data analysis and machine learning in Jupyter notebooks.
+What if you could help decide whether a multimillion-dollar space mission is ready for launch? Build a dashboard that predicts space launch probability from real-world space weather data. This lab will show you how AI can help you build a machine learning model, even if you're not an expert programmer. You'll learn how to give clear instructions to IBM Bob, set boundaries for what you want, and use real data to get accurate results.
+
+In this lab, you'll build a **complete machine learning application** that predicts the probability of a space launch using data analysis and machine learning in Jupyter notebooks.
 
 Bob writes all the code for you! You will:
 - Read what each step does.
