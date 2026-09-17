@@ -46,7 +46,9 @@ Throughout the lab, you'll guide IBM Bob with clear instructions and specific re
 
 This lab uses two datasets that include posts and news articles about coffee trends during the Fall season. The data is sourced from the following content aggregators:
 
-- posts.csv: Bluesky API
+**Tip:** Right-click the following links, and open the pages in a new tab.
+
+- posts.csv: [Bluesky API](https://bsky.network/)
   - Columns include:
     - post_id
     - author
@@ -54,7 +56,7 @@ This lab uses two datasets that include posts and news articles about coffee tre
     - likes
     - reposts
     - text
-- news.csv: NEWS API
+- news.csv: [News API](https://newsapi.org/)
   - Columns include:
     - published_at
     - source
