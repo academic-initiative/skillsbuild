@@ -1,4 +1,4 @@
-# Overview of uild a Social Listening Dashboard with IBM Bob Lab
+# Overview of Build a Social Listening Dashboard with IBM Bob Lab
 
 Turn real social data into decisions your team can act on — without writing a single line of code. Learn how to use Generative AI with Python and Streamlit to build a social listening dashboard to aggregate and analyze news and social media posts to help a small business owner make informed decisions. Along the way, you'll collaborate with IBM Bob to build a real-world business application step by step, gaining hands-on experience with AI-assisted development, language model integration, and data-driven workflows that mirror what marketing teams use every day.
 
