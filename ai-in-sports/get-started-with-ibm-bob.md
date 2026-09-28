@@ -10,7 +10,7 @@ Watch the following video to see a preview of the steps to sign up for IBM Bob.
 
 **Tip:** Right-click the following thumbnail image, and open the video in a new tab.
 
-<a href="https://video.ibm.com/embed/channel/23677416/video/get-started-ibm-bob">![Video preview of steps](images/video-thumbnail-install-bob.png "Video preview of steps")</a>
+<a href="https://video.ibm.com/embed/channel/23669513/video/get-started-ibm-bob">![Video preview of steps](images/video-thumbnail-install-bob.png "Video preview of steps")</a>
 
 ## Sign up for a free trial account
 
