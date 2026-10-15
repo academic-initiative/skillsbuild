@@ -4,4 +4,4 @@ Turn a century of streaming data into decisions your label can act on — withou
 
 In this lab, you build an application that scores tracks by audio feature, reveals century-long trends, routes your target vibe to the closest historical hits, and exports an executive briefing for the Head of A&R.
 
-View the [lab guide](ai-in-spotify.md) to start the lab.
+View the [lab guide](ai-in-data-spotify.md) to start the lab.
