@@ -6,7 +6,7 @@ Transform enterprise sales records into a unified relational dataset and an exec
 
 Along the way, you'll collaborate with IBM Bob to architect and implement an enterprise data workflow step by step, gaining hands-on experience with AI-assisted data pipeline development, relational data joining, client-side CSV parsing, and interactive web visualization.
 
-In this lab, you build an application that joins orders with customer and sales representative directories, tracks revenue and freight metrics, visualizes performance across territories and sales teams, and delivers an interactive searchable order portal for operations leaders.
+In this lab, you build an application that joins orders with customer and sales representative directories, tracks revenue and freight metrics, visualizes performance across territories and sales teams, and delivers an interactive searchable order dashboard for operations leaders.
 
 ![Final application](images/final-app.png)
 
