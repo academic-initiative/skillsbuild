@@ -2,7 +2,13 @@
 
 ## Overview
 
-Transform enterprise sales records into a unified relational dataset and an executive-ready operational dashboard — without writing boilerplate code by hand. Learn how to use Generative AI with Node.js, PapaParse, and Chart.js to build a sales data intelligence pipeline and interactive web dashboard. You will merge multiple relational CSV exports (`ORDERS.csv`, `CUSTOMERS.csv`, and `SALES.csv`), sanitize sensitive customer data by stripping personally identifiable information (PII), calculate executive sales KPIs, and build rich data visualizations and real-time search tools.
+Transform enterprise sales records into a unified relational dataset and an executive-ready operational dashboard — without writing boilerplate code by hand. Learn how to use Generative AI to build a sales data intelligence pipeline and interactive web dashboard with the following tools:
+
+- Node.js: A JavaScript runtime built on Chrome's V8 engine that lets you run JavaScript outside the browser, typically for servers and command-line tools.
+- PapaParse: A fast, in-browser and Node-compatible JavaScript library for parsing CSV data into JSON (and converting JSON back to CSV).
+- Chart.js: An open-source JavaScript library for drawing responsive, interactive charts (such as bar, line, and pie) on an HTML canvas.
+
+You will merge multiple relational CSV exports (`ORDERS.csv`, `CUSTOMERS.csv`, and `SALES.csv`), sanitize sensitive customer data by stripping personally identifiable information (PII), calculate executive sales KPIs, and build rich data visualizations and real-time search tools.
 
 Along the way, you'll collaborate with IBM Bob to architect and implement an enterprise data workflow step by step, gaining hands-on experience with AI-assisted data pipeline development, relational data joining, client-side CSV parsing, and interactive web visualization.
 
@@ -48,9 +54,11 @@ Throughout the lab, you'll guide IBM Bob with clear instructions and specific re
 
 This lab uses enterprise sales transaction and customer management data structured into three relational CSV files, which are merged into a single consolidated output file.
 
-**Tip:** Right-click the following links, and open the pages in a new tab.
+- **Enterprise Sales Transaction Data** records business-to-business sales orders across an organization. Each transaction captures key details such as order identifiers, dates and times, freight or shipping charges, and the sales representative responsible for the sale. The dataset supports revenue tracking, order fulfillment monitoring, and sales performance analysis across territories and teams.
 
-- `ORDERS.csv`: Raw transaction records (8,335 rows)
+- **Customer Management Data** holds master records for an organization's customer base. Each record includes contact and address information, year-to-date sales figures, assigned sales representative, nationality, and payment details. This dataset serves as the primary source of customer identity and relationship data, and is the principal table for sensitive personally identifiable information (PII) in the system.
+
+- `ORDERS.csv`: Raw transaction records (8,333 rows)
   - Columns include:
     - `ORDER_ID`: Unique order identifier
     - `CUST_ID`: Foreign key linking to customer record
@@ -59,6 +67,11 @@ This lab uses enterprise sales transaction and customer management data structur
     - `FREIGHT_CHARGES`: Freight/shipping charge amount (USD)
     - `SALESREP_ID`: Sales representative assigned to order
     - `ORDER_POSTED_DATE`: Transaction posting date
+
+The following image shows the first 10 rows of the orders dataset:
+
+![Orders dataset](images/orders-csv.png)
+
 - `CUSTOMERS.csv`: Customer directory (902 rows)
   - Columns include:
     - `CUST_ID`: Unique customer identifier
@@ -70,6 +83,11 @@ This lab uses enterprise sales transaction and customer management data structur
     - `YTD_SALES`: Year-to-date sales total (USD)
     - `SALESREP_ID`: Primary assigned sales representative
     - *Sensitive PII fields (credit cards, national IDs, driver licenses) are stripped during the merge.*
+
+The following image shows the first 10 rows of the customers dataset:
+
+![Customers dataset](images/customers-csv.png)
+
 - `SALES.csv`: Sales organization directory (104 rows)
   - Columns include:
     - `SALESREP_ID`: Unique sales representative identifier
@@ -78,8 +96,14 @@ This lab uses enterprise sales transaction and customer management data structur
     - `TERRITORY`: Assigned geographic sales territory
     - `EMAIL_ADDRESS`: Sales representative corporate email
     - `MANAGER_ID`: Manager identifier
-- `sales-orders-customers.csv`: Merged relational output (8,335 rows)
+
+The following image shows the first 10 rows of the sales dataset:
+
+![Sales dataset](images/sales-csv.png)
+
+- `sales-orders-customers.csv`: Merged relational output (8,333 rows)
   - Combined schema containing 18 sanitized fields linking orders, customers, and sales representative metadata.
+
 
 ***
 
@@ -102,7 +126,7 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 ## Contents
 
 - [Task 1: Set up the project](#task01)
-- [Task 2: Build the relational data merge pipeline](#task02)
+- [Task 2: Build the data merge script](#task02)
 - [Task 3: Create the starter dashboard layout](#task03)
 - [Task 4: Add executive KPI summary cards](#task04)
 - [Task 5: Build interactive Chart.js visualizations](#task05)
@@ -169,7 +193,7 @@ Follow these steps to initialize the Node.js project and install the dependencie
 
    <img src="images/bob-panel.png" alt="Modes panel" width="35%">
 
-1. In the Bob side panel, copy and paste the following prompt to ask Bob to set up and verify the prerequisite environment:
+1. In the Bob chat panel, copy and paste the following prompt to ask Bob to set up and verify the prerequisite environment:
 
    ```text
    I need to set up a Node.js data processing and dashboard project in this folder.
@@ -206,9 +230,9 @@ The following image shows the verified project setup:
 
 <a name="task02"></a>
 
-## Task 2: Build the relational data merge pipeline
+## Task 2: Build the data merge script
 
-In this task, you will prompt Bob to create a Node.js data pipeline script (`scripts/merge.js`). The script loads and parses all three CSV files, builds in-memory lookup hash maps for customers and sales representatives, joins each order with its corresponding customer and sales rep, sanitizes the data by stripping sensitive customer PII, and outputs the consolidated dataset to `data/sales-orders-customers.csv`.
+In this task, you will prompt Bob to create a Node.js script (`scripts/merge.js`) that loads and parses all three CSV files, and then joins each order with its corresponding customer and sales rep. Lastly, the script sanitizes the data by removing sensitive customer PII (personally identifiable information), and outputs the consolidated dataset to `data/sales-orders-customers.csv`.
 
 Follow these steps to build and execute the merge script:
 
@@ -262,16 +286,20 @@ Bob completes the following tasks based on the prompt:
 - Joins order records with customer data and sales representative details
 - Strips sensitive PII fields from the customer dataset
 - Writes the 18-column merged dataset to `data/sales-orders-customers.csv`
-- Runs `npm run merge` and confirms that all 8,335 orders were successfully merged
+- Runs `npm run merge` and confirms that all 8,333 orders were successfully merged
 
 ## Verify the merged data
 
 1. Verify the script execution output in the Bob console. You should see a confirmation message indicating:
-   - 8,335 orders loaded
+   - 8,333 orders loaded
    - 902 customers loaded
    - 104 sales reps loaded
-   - 8,335 merged rows written to `data/sales-orders-customers.csv`
+   - 8,333 merged rows written to `data/sales-orders-customers.csv`
 1. Open `data/sales-orders-customers.csv` to inspect the generated file and verify that the 18 columns match the expected schema without any raw credit card or ID numbers.
+
+The following animated images shows the combined `sales-orders-customers.csv` file.
+
+![Sales dataset](images/sales-orders-customers-csv.gif)
 
 The following image shows the data merge script execution:
 
@@ -285,7 +313,7 @@ The following image shows the data merge script execution:
 
 ## Task 3: Create the starter dashboard layout
 
-In this task, you will prompt Bob to create a clean, responsive single-page web dashboard at `dashboard/index.html`. The dashboard loads PapaParse and Chart.js via CDN, fetches and parses the newly generated `data/sales-orders-customers.csv` file directly in the browser, and renders an executive header with dataset metadata.
+In this task, you will prompt Bob to create a clean, responsive single-page web dashboard at `dashboard/index.html`. The dashboard loads the newly generated `data/sales-orders-customers.csv` file directly in the browser, renders an executive header with dataset metadata including placeholders for the KPI Sumary Cards, Charts Grid, and Searchable Data Table sections.
 
 Follow these steps to build the starter dashboard layout:
 
@@ -337,9 +365,9 @@ Bob completes the following tasks based on the prompt:
 
 1. Open your browser and navigate to the local URL (for example, `http://localhost:3000/dashboard/index.html`).
 1. Open your browser Developer Tools (press **F12** or right-click and select **Inspect > Console**).
-1. Verify that the console displays a confirmation log showing **8,335 records successfully parsed**.
+1. Verify that the console displays a confirmation log showing **8,333 records successfully parsed**.
 
-The following image shows the starter dashboard layout:
+The following image shows the starter dashboard layout. Notice that Bob created placeholder containers sections for the KPI Summary Cards, Charts Grid, and Searchable Data Table sections. These section will updated in the upcoming tasks.
 
 <img src="images/starter-dashboard.png" alt="Starter dashboard">
 
@@ -362,10 +390,10 @@ Follow these steps to add the executive KPI summary cards:
 
    Requirements:
    1. Write a function renderKPICards(data) that calculates the following metrics across all rows:
-      - Total Orders: Total count of order records (formatted with commas, e.g. 8,335)
+      - Total Orders: Total count of order records (formatted with commas, e.g. 8,333)
       - Total Freight Charges: Sum of FREIGHT_CHARGES formatted as USD currency (e.g. $512,340 or formatted to 2 decimal places)
-      - Unique Customers: Distinct count of CUST_ID values (e.g. 902)
-      - Active Sales Reps: Distinct count of non-empty SALESREP_ID values (e.g. 104)
+      - Unique Customers: Distinct count of CUST_ID values
+      - Active Sales Reps: Distinct count of non-empty SALESREP_ID values
    2. Render 4 responsive metric cards in a CSS grid layout:
       - Each card should include an icon/badge, metric title, bold formatted value, and a descriptive subtitle (e.g. "Across all global territories", "Average freight per order: $XX.XX").
    3. Call renderKPICards(salesData) immediately after PapaParse finishes parsing the CSV.
@@ -388,14 +416,14 @@ Bob makes the following modifications to the application based on the prompt:
 1. Refresh your browser window.
 1. Explore the application. Notice the following elements:
    - Four KPI cards appear below the header.
-   - **Total Orders** displays **8,335**.
-   - **Unique Customers** displays **902**.
-   - **Active Sales Reps** displays **104**.
+   - **Total Orders** displays **8,333**.
+   - **Unique Customers** displays **2931**.
+   - **Active Sales Reps** displays **110**.
    - **Total Freight Charges** displays the sum of all shipping charges formatted as currency.
 
 The following image shows the executive KPI cards implemented:
 
-<img src="images/kpi-cards.png" alt="Executive KPI cards">
+<img src="images/kpi-cards.gif" alt="Executive KPI cards">
 
 [Back to the top](#top)
 
