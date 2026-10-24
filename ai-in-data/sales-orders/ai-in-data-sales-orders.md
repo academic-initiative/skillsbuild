@@ -198,7 +198,13 @@ Follow these steps to initialize the Node.js project and install the dependencie
 
    <img src="images/bob-panel.png" alt="Modes panel" width="35%">
 
-1. In the Bob chat panel, copy and paste the following prompt to ask Bob to set up and verify the prerequisite environment:
+1. In the Bob chat panel, copy and paste the following prompt to ask Bob to set up and verify the prerequisite environment.
+
+   ### What this prompt does
+   Before you build the solution, you need a project workspace with the correct tools and folder structure. With this prompt, IBM Bob creates the project configuration, installs the required libraries, and verifies that the source data files are available.
+   
+   ### How it works
+   Node.js provides the runtime environment that will execute the data-processing scripts. Bob uses the setup instructions in the prompt to create the project files, install dependencies, and prepare the folders that will hold our data pipeline and dashboard components.
 
    ```text
    I need to set up a Node.js data processing and dashboard project in this folder.
@@ -241,7 +247,13 @@ In this task, you will prompt Bob to create a Node.js script (`scripts/merge.js`
 
 Follow these steps to build and execute the merge script:
 
-1. Copy and paste the following prompt into Bob's chat panel:
+1. Copy and paste the following prompt into Bob's chat panel.
+
+   ### What this prompt does
+   The source data is spread across multiple CSV files, with each file containing only part of the business picture. With this prompt, IBM Bob builds a data pipeline that combines these separate files into a single dataset to be analyzed and visualized in the dashboard.
+
+   ### How it works
+   Node.js reads each CSV file, matches related records using shared identifiers such as Customer ID and Sales Representative ID, removes sensitive information that should not appear in reports, and writes the cleaned results into a consolidated output file.
 
    ```text
    Create a Node.js data merge script at scripts/merge.js that joins ORDERS.csv, CUSTOMERS.csv, and SALES.csv into a unified, sanitized CSV file at data/sales-orders-customers.csv.
@@ -322,7 +334,13 @@ In this task, you will prompt Bob to create a clean, responsive single-page web 
 
 Follow these steps to build the starter dashboard layout:
 
-1. Copy and paste the following prompt into Bob's chat panel:
+1. Copy and paste the following prompt into Bob's chat panel.
+
+   ### What this prompt does
+   Now that the data has been unified, you create the dashboard that business users will interact with. With this prompt, IBM Bob generates the application's main web page and prepares it to display sales information.
+
+   ### How it works
+   The dashboard uses HTML to structure the page, CSS to control the visual layout, and JavaScript to load the merged CSV file directly in the browser. The application then uses that data to drive the metrics, charts, and tables added in later steps.
 
    ```text
    Create a responsive, modern HTML5 sales orders dashboard in dashboard/index.html that loads and parses data/sales-orders-customers.csv in the browser.
@@ -388,7 +406,13 @@ In this task, you will prompt Bob to compute key operational metrics from the lo
 
 Follow these steps to add the executive KPI summary cards:
 
-1. Copy and paste the following prompt into Bob's chat panel:
+1. Copy and paste the following prompt into Bob's chat panel.
+
+   ### What this prompt does
+   Executives often want a quick summary of business performance before exploring detailed data. With this prompt, IBM Bob creates KPI cards that highlight the most important operational metrics.
+
+   ### How it works
+   The dashboard calculates values directly from the loaded dataset and displays them in summary cards. These metrics provide an at-a-glance view of order volume, freight charges, customer activity, and sales representative participation.
 
    ```text
    Add an Executive KPI Summary Cards component to dashboard/index.html inside the #kpi-section.
@@ -442,7 +466,13 @@ In this task, you will prompt Bob to add three interactive Chart.js visual analy
 
 Follow these steps to add the interactive visualizations:
 
-1. Copy and paste the following prompt into Bob's chat panel:
+1. Copy and paste the following prompt into Bob's chat panel.
+
+   ### What this prompt does
+   Tables and KPI cards summarize information, but charts make trends and patterns easier to see. With this prompt, IBM Bob adds visual analytics that highlight territory performance, sales representative activity, and customer revenue.
+
+   ### How it works
+   Chart.js converts aggregated sales data into interactive visualizations. The dashboard groups and summarizes data behind the scenes, then presents the results as charts that can be explored visually.
 
    ```text
    Add interactive Chart.js visualizations to dashboard/index.html inside the #charts-section.
@@ -507,7 +537,13 @@ In this task, you will prompt Bob to add an interactive, client-side searchable 
 
 Follow these steps to add the searchable data table:
 
-1. Copy and paste the following prompt into Bob's chat panel:
+1. Copy and paste the following prompt into Bob's chat panel.
+
+   ### What this prompt does
+   While charts provide summaries, users often need to locate specific records and investigate individual transactions. With this prompt, IBM Bob creates a searchable data explorer for the detailed order data.
+
+   ### How it works
+   The dashboard keeps the merged dataset in browser memory and dynamically filters rows as users type. This creates a fast, interactive experience without requiring a separate database or backend service.
 
    ```text
    Add an interactive searchable data table to dashboard/index.html inside the #table-section.
@@ -571,7 +607,13 @@ In this task, you will prompt Bob to add operational enhancements to the dashboa
 
 Follow these steps to enhance and polish the dashboard:
 
-1. Copy and paste the following prompt into Bob's chat panel:
+1. Copy and paste the following prompt into Bob's chat panel.
+
+   ### What this prompt does
+   The core dashboard is now complete. With this prompt, IBM Bob adds usability features that make the application more practical for day-to-day business analysis.
+
+   ### How it works
+   Additional controls such as filters, pagination, and export capabilities allow users to focus on specific subsets of data, navigate large result sets more efficiently, and share filtered results with others.
 
    ```text
    Add operational enhancements and UI polish to dashboard/index.html.
