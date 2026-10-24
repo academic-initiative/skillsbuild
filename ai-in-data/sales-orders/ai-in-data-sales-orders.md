@@ -70,7 +70,8 @@ This lab uses enterprise sales transaction and customer management data structur
 
 The following image shows the first 10 rows of the orders dataset:
 
-![Orders dataset](images/orders-csv.png)
+<img src="images/orders-csv.png" alt="Orders dataset" width="75%">
+
 
 - `CUSTOMERS.csv`: Customer directory (902 rows)
   - Columns include:
@@ -137,6 +138,8 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 
 ***
 
+<!--
+
 # Preview the tutorial
 
 Watch the following video to see a preview of the steps in this tutorial.
@@ -148,6 +151,8 @@ Watch the following video to see a preview of the steps in this tutorial.
 <a href="https://video.ibm.com/embed/channel/23669513/video/ai-in-data-sales-orders">![Video preview of tutorial](images/video-thumbnail-ai-in-data-sales-orders.png "Video preview of tutorial")</a>
 
 ***
+
+-->
 
 <a name="task01"></a>
 
@@ -335,7 +340,7 @@ Follow these steps to build the starter dashboard layout:
       - On DOMContentLoaded, fetch and parse "../data/sales-orders-customers.csv" using Papa.parse with header: true, dynamicTyping: true, and skipEmptyLines: true.
       - Handle loading and error states gracefully with a visual spinner or status message.
       - Store parsed data in a global variable `salesData` and log the loaded record count to the browser console.
-   5. Create placeholder container sections for:
+   5. Create placeholder container sections for the following sections; but only include a header for the section, leave the rest of the section blank with no data:
       - KPI Summary Cards (#kpi-section)
       - Charts Grid (#charts-section)
       - Searchable Data Table (#table-section)
@@ -423,7 +428,7 @@ Bob makes the following modifications to the application based on the prompt:
 
 The following image shows the executive KPI cards implemented:
 
-<img src="images/kpi-cards.gif" alt="Executive KPI cards">
+<img src="images/kpi-cards.png" alt="Executive KPI cards">
 
 [Back to the top](#top)
 
@@ -454,7 +459,7 @@ Follow these steps to add the interactive visualizations:
         * Display sales rep names on X-axis and order counts on Y-axis
       - Chart 3: "Top 10 Customers by YTD Sales" (Horizontal Bar Chart)
         * Aggregate or extract top 10 unique customers by YTD_SALES value
-        * Sort descending by YTD_SALES
+        * Sort descending order, highest YTD_SALES to lowest YTD_SALES
         * Display customer names on Y-axis and sales amount formatted in USD on X-axis
    2. Chart Styling & Features:
       - Use a cohesive color palette (corporate blues, teals, and slate accents).
@@ -605,7 +610,7 @@ Bob makes the following modifications to the application based on the prompt:
    2. Use the pagination buttons (**Previous** / **Next**) and change the page size dropdown to browse through order records.
    3. Click **Export Filtered View (.csv)** to verify that a sanitized CSV of your active search and territory filter downloads directly to your computer.
 
-The following image shows the enhancements to the dashboard:
+The following image shows the enhancements to the dashboard. In particular, notice the **Export Filtered View** button.
 
 <img src="images/enhanced-app.png" alt="Enhanced application">
 
