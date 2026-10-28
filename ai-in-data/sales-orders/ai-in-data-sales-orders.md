@@ -586,6 +586,7 @@ Bob makes the following modifications to the application based on the prompt:
 ## Explore the application
 
 1. Refresh your browser window.
+1. Scroll to see the table after the KPI cards and charts.
 1. Complete the following steps to explore the data table:
    1. Type a territory name (for example, `North` or `East`) into the search box. Notice the table instantly filters to matching rows and the counter badge updates.
    2. Type a specific customer or company name to view all transaction records associated with that customer.
@@ -647,6 +648,7 @@ Bob makes the following modifications to the application based on the prompt:
 ## Explore the application
 
 1. Refresh your browser window.
+1. Scroll to see the table after the KPI cards and charts.
 1. Complete the following steps to explore the enhanced dashboard:
    1. Select a territory from the **Territory Filter** dropdown. Notice that the KPI cards, chart highlights, and table update dynamically to reflect that territory.
    2. Use the pagination buttons (**Previous** / **Next**) and change the page size dropdown to browse through order records.
