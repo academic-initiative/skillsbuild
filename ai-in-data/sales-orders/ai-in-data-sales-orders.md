@@ -116,7 +116,7 @@ The following image shows the first 10 rows of the sales dataset:
 
 ## Prerequisites
 
-**Tip:** Right-click the following links, and open the pages in a new tab.
+**Tip:** Right-click the following link, and open the page in a new tab.
 
 Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports/get-started-with-ibm-bob.md)
 
@@ -171,7 +171,7 @@ Don't worry if you don't have these packages installed yet — IBM Bob will help
 Follow these steps to create the lab folder and place the datasets:
 
 1. Choose a folder location for the lab work.
-1. Download the [sales-orders-data.zip](sales-orders-data.zip) file to your lab folder. The zip file contains `ORDERS.csv`, `CUSTOMERS.csv`, and `SALES.csv`.
+1. Download the [sales-orders-data.zip](sales-orders-data.zip) file to your lab folder. The zip file contains `ORDERS.csv`, `CUSTOMERS.csv`, and `SALES.csv`. **Tip:** Right-click the link, and open the page in a new tab.
 1. In Bob, open the terminal window: click **Terminal > New Terminal**.
 1. Use the `cd` command in the terminal panel to move into that folder.
 1. Create a folder for your project and extract the provided data files into it:
