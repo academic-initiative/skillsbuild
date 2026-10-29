@@ -138,8 +138,6 @@ Complete the prerequisite tasks of [Get started with IBM Bob](../../ai-in-sports
 
 ***
 
-<!--
-
 # Preview the tutorial
 
 Watch the following video to see a preview of the steps in this tutorial.
@@ -151,8 +149,6 @@ Watch the following video to see a preview of the steps in this tutorial.
 <a href="https://video.ibm.com/embed/channel/23669513/video/ai-in-data-sales-orders">![Video preview of tutorial](images/video-thumbnail-ai-in-data-sales-orders.png "Video preview of tutorial")</a>
 
 ***
-
--->
 
 <a name="task01"></a>
 
