@@ -2,6 +2,7 @@
 
 This repository contains step-by-step labs to provide hands-on experience to:
 - Create applications and predictive AI models with IBM Bob.
+  - [AI in Data](ai-in-data/readme.md)
   - [AI in Sports](ai-in-sports/readme.md)
   - [AI in Space](ibm-bob/ai-in-space/readme.md)
   - [AI in Business](ibm-bob/ai-in-business/readme.md)

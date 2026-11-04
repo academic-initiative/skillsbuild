@@ -5,3 +5,5 @@ This folder includes the following IBM SkillsBuild labs:
 - [Build a DJ Application with IBM Bob Lab](ai-in-arts-dj-app/dj-app.md)
 - [Build an Animation Studio Application with IBM Bob](ai-in-arts-graphics/ai-in-arts-graphics.md)
 - [Build a Space Weather Data Dashboard with IBM Bob](ai-in-space/ai-in-space.md)
+- [Build a Social Listening Dashboard with IBM Bob](ai-in-business/ai-in-business.md)
+- [Identify and Remediate Security Vulnerabilities with IBM Bob](ai-in-cyber/ai-in-cyber.md)
