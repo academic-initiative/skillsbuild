@@ -99,6 +99,8 @@ Watch the following video to see a preview of the steps in this tutorial.
 
 <a href="https://video.ibm.com/embed/channel/23669513/video/football-advanced">![Video preview of tutorial](images/video-thumbnail-football-advanced.jpg "Video preview of tutorial")</a>
 
+<p>Right-click the link to view the <a href="ai-in-sports-football-advanced-video-transcript.md" target="_blank">video transcript</a>.</p>
+
 ***
 
 ## Task 1: Set up your environment

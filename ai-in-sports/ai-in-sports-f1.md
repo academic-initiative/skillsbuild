@@ -110,6 +110,8 @@ Watch the following video to see a preview of the steps in this tutorial.
 
 <a href="https://video.ibm.com/embed/channel/23669513/video/f1-racing">![Video preview of tutorial](images/video-thumbnail-f1-racing.jpg "Video preview of tutorial")</a>
 
+<p>Right-click the link to view the <a href="ai-in-sports-f1-video-transcript.md" target="_blank">video transcript</a>.</p>
+
 <a name="part01"></a>
 
 <img src="images/f1-part01.png">

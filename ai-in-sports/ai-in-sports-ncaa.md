@@ -41,6 +41,8 @@ Watch the following video to see a preview of the steps in this tutorial.
 
 <a href="https://video.ibm.com/embed/channel/23669513/video/ncaa-bb">![Video preview of tutorial](../watsonx/images/video-thumbnail-ncaa.jpg "Video preview of tutorial")</a>
 
+<p>Right-click the link to view the <a href="ai-in-sports-ncaa-video-transcript.md" target="_blank">video transcript</a>.</p>
+
 <a name="part01"></a>
 
 <img src="../watsonx/images/lab01.png">

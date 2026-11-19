@@ -1,0 +1,29 @@
+# Video transcript for *Lab: AI in Data - Build a Music Intelligence Dashboard with IBM Bob*
+
+This video shows you how to use IBM Bob to find and fix a security vulnerability in a web application.
+
+Cybersecurity is the practice of protecting systems, networks, applications, and data from digital threats and unauthorized access. In this lab, you focus on two complementary approaches. Static Application Security Testing, or SAST, analyzes source code without running the application to find coding flaws such as SQL injection. Software Composition Analysis, or SCA, analyzes third-party and open-source dependencies to find known vulnerabilities. Together, they help you secure both the code you write and the components you use. You play the role of a DevSecOps engineer evaluating OWASP Juice Shop, an open-source web application designed for security training. Perform all testing only within your local, isolated container environment, and never scan or test systems without explicit authorization.
+
+To complete this lab, you need to sign up for an IBM Bob trial account. If you don't have a trial account, watch the Get started with Bob video, and then follow the steps to sign up. Because this lab builds and scans containers locally, your system should have at least 8 CPU cores, 16 gigabytes of memory, 50 gigabytes of free disk space, administrator permissions, and a modern web browser.
+
+First, set up an isolated container environment. In the Bob chat panel, select Agent mode, and then prompt Bob to download, install, and run a Podman container environment. Click Approve once when prompted, and follow the prompts. Bob verifies that the container machine is running with 4 CPUs, 6 gigabytes of RAM, and 50 gigabytes of storage.
+
+Next, prompt Bob to clone the OWASP Juice Shop repository and open the folder in the Explorer panel. When Bob is done, you see the project tree in the Explorer panel.
+
+Now build the baseline application. Prompt Bob to build a container image from the cloned code, and to give you the instructions to run it. The build compiles the application assets and can take 5 to 10 minutes. When Bob is done, run the container using the command Bob provides in the terminal, and then launch the application. Notice that the e-commerce store loads its products, categories, and navigation menus.
+
+Now scan the code for vulnerabilities. Prompt Bob to run a cybersecurity analysis on the application code. Bob selects an appropriate scanning tool, checks the source files and dependency manifests for insecure coding patterns and known vulnerabilities, and groups the findings by severity: Critical, High, Medium, and Low. When Bob is done, open the report.
+
+Next, analyze the report to decide which finding to investigate first. Review the Critical and High severity findings, and locate the SQL injection finding, identified as CWE-89, in the login and product search routes. Record the key details for your remediation plan. An unauthenticated attacker can manipulate the SQL query through user input to bypass password authentication, log in as the administrator, and expose the user database. The recommended fix is to replace the concatenated SQL query strings with parameterized queries.
+
+Before fixing the flaw, confirm that it is real by reproducing it. In your local application, log in with the classic SQL injection payload and any test string as the password. The application evaluates the condition as true and ignores the rest of the query, so you are logged in as the admin user without ever supplying the administrator password.
+
+Now prompt Bob to remediate SQL injection in the login and search routes. Bob replaces the raw string concatenation in the database queries with parameterized statements. Review the proposed changes carefully to confirm that they fix the underlying code issue rather than just suppressing the finding. Then prompt Bob to display the source-code changes in the integrated browser. In the diff, look for the removal of raw string interpolation and the addition of parameterized query syntax that separates data from query structure.
+
+With the code fixed, rebuild and redeploy the application. Prompt Bob to build a new image from the changed code. Then run the new container in the terminal using the command Bob provides, mapped to port 3001 so that it runs alongside the original. Open the application on the new port. When the container is running, prompt Bob to verify automatically that SQL injection in the login form is no longer reproducible. Bob sends the injection payload to the login endpoint and confirms that the server returns an HTTP 401 Unauthorized response instead of an administrator session token.
+
+Now validate the fix yourself. In the remediated application, repeat the same login test with the same payload and password. This time the application treats the input as a literal string instead of executable SQL, displays an Invalid email or password error, and denies access. Finally, test a normal login with a valid account, such as the admin credentials in Bob's summary, to confirm that the fix did not break normal authentication.
+
+The final task returns your environment to a clean state. Prompt Bob to stop the application containers and remove the cloned images from Podman. Then prompt Bob to remove the cloned OWASP Juice Shop source directory.
+
+In this lab, you used Bob to run a complete vulnerability assessment and remediation workflow. You deployed an application, ran automated scans, reproduced an authentication bypass using SQL injection, applied a secure fix, and rebuilt and validated the secure application. Refer to the lab guide for complete details.
