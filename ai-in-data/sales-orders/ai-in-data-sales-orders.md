@@ -148,6 +148,8 @@ Watch the following video to see a preview of the steps in this tutorial.
 
 <a href="https://video.ibm.com/embed/channel/23669513/video/ai-in-data-sales-orders">![Video preview of tutorial](images/video-thumbnail-ai-in-data-sales-orders.png "Video preview of tutorial")</a>
 
+<p>Right-click the link to view the <a href="ai-in-data-sales-orders-video-transcript.md" target="_blank">video transcript</a>.</p>
+
 ***
 
 <a name="task01"></a>
