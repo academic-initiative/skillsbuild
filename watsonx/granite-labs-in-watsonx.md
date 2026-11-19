@@ -20,7 +20,7 @@ When you sign up for a watsonx trial, the watsonx.ai Studio and watsonx.ai Runti
 
 1. Visit the watsonx product page at [https://www.ibm.com/products/watsonx](https://www.ibm.com/products/watsonx).
 
-1. Click **Try watsonx for free**.
+1. Click **Start free trial**.
 
 1. Watch this video to see how to sign up for an account:
 
